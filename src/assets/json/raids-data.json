@@ -1,0 +1,133 @@
+{
+	"title": "Introduction",
+	"description": "Hello fellow raider, looks like you are interested into raiding and you have come to the right place. Here you will get an idea of how raids function in the game, and what you have to do in order that guild can help you progress and learn the raids. First of all, raids are not hard at all, actually they are easy and fun plus, they are highly rewarding in terms of loot and satisfaction, when you as a player and your team kill a boss. Raiding is about enjoying the content. It is about raiding, not about getting achievements/titles and loot reward. We are only offering raiding training for players that are interested in content and not rewards. If you want to join us on raiding, please follow the next steps",
+	"dedication": {
+		"id": 1,
+		"title": "1. Level of Dedication",
+		"description": " Raids being easy was said - they do need your time dedication. Don't get affraid, it is not a ''second job'' dedication, you just need to watch some videos and learn the mechanics before the fight.Bear in mind, that each player has to make their best in order for team to be successful, noone wants to carry other players."
+	},
+	"ready": {
+		"title": "2. Getting ready for the raid",
+		"descriptionList": {
+			"id": 1,
+			"description": "First thing which you need to think about before you start exploring each encounter is what you will be playing. The Builds tab in this sheet will have more information about each build and how to use it, you can always check community websites.",
+			"option": [{
+				"name": "qT",
+				"link": "http://qtfy.eu/"
+			}, {
+				"name": "Metabattle",
+				"link": "https://metabattle.com/wiki/MetaBattle_Wiki"
+			}]
+		},
+		"descriptionList2": [{
+			"id": 1,
+			"description": "Your build, knowledge and rotation is very important. Raids can be done with non-meta builds, but to maximize our success rate, we want new players to always run complete meta."
+		}, {
+			"id": 2,
+			"description": "Try to bring best that you can - full ascended is higly desired, if you are not yet full ascended go in this order weapons > trinkets > armor . You need to have atleast weapons and trinkets full ascended. Back item and armor can wait, but work on it."
+		}, {
+			"id": 3,
+			"description": "Mistakes on non-optimized build are harsher then on meta-optimized builds. Please prepare your self - make meta build, learn it by reading traits, skills, and get an idea of how it works."
+		}, {
+			"id": 4,
+			"description": "Learn what are your highest burst skills, what are your soft CCs, hard CCs, can you block, evade, heal, which skills are for cleaving. Lastly learn your rotation well on the training golem. You should be able to hit atleas 85% dmg of the benchmark."
+		}, {
+			"id": 5,
+			"description": "After you as a player are well prepared, you need to know what you are about to kill. Each boss/encounter is different, and has unique mechanics which you need to understand. When you start learning, first watch a video with your class POV, so you can see the fight."
+		}],
+		"descriptionList3": {
+			"id": 1,
+			"description": "After that head to Dulfy raid guide, and read everything on the encounter. There you will read about each mechanic at certain encounter.",
+			"option": {
+				"name": "Dulfy",
+				"link": "http://dulfy.net/category/gw2/"
+			}
+		}
+	},
+	"involved": {
+		"title": "3. Get involved with the guild",
+		"description": "Don't be afraid to ask questions and talk in general - experienced raid guildies will be glad to help you out understand encounter or your build. We expect that you have done your research and you have general understanding. Team composition is also important part of what raider should understand, but it is not as important as your build/rotation and knowing the encounter. You can learn it by playing with the guild, you will learn it quickly. After that you will start to understand the meta and you will probably start liking it a lot more."
+	},
+	"notes": {
+		"title": "4. Last notes",
+		"descriptionList": [{
+			"description": "When you enroll yourself for a raiding session, get there on time! That means be online 5 minutes before the raid starts, so commander can invite you to the squad and the raid starts at time. If you are late, please inform other players on discord , you can install the app on your smartphone. This is end of the guide of what we as a guild expect from new raiders to do in preparation. Always bring best that you can, your teammates are also trying to do their best!"
+		}, {
+			"description": "Dedication and preparation will always be appreciated and respected from other players. Non dedication, and ''I want to be carried attitude'' will not be accepted by other players in the guild or in the game in general."
+		}, {
+			"description": "Last but not least - we are doing this to have fun, don't be affraid of doing mistakes and don't get salty for other players doing them. Always respect other guild members or pugs no matter what they did, it is important value that we as a guild follow."
+		}]
+	},
+	"encounter": {
+		"wing1": [{
+			"name":"Vale Guardian",
+			"picture":"vg.png",
+			"link":"http://dulfy.net/2015/11/20/gw2-vale-guardian-raid-boss-guide/"
+		},
+		{
+			"name":"Gorseval",
+			"picture":"gorseval.png",
+			"link":"http://dulfy.net/2015/11/25/gw2-gorseval-the-multifarious-raid-boss-guide/"
+		},
+		{
+			"name":"Sabetha",
+			"picture":"sabetha.png",
+			"link":"http://dulfy.net/2015/11/30/gw2-sabetha-the-saboteur-raid-boss-guide/"
+		}
+		],
+		"wing2": [{
+			"name":"Slothasor",
+			"picture":"slothasor.png",
+			"link":"http://dulfy.net/2016/03/15/gw2-slothasor-salvation-pass-raid-guide/"
+		},
+		{
+			"name":"Trio",
+			"picture":"trio.png",
+			"link":"http://dulfy.net/2016/03/22/gw2-bandit-trio-salvation-pass-raid-guide/"
+		},
+		{
+			"name":"Matthias",
+			"picture":"matthias.png",
+			"link":"http://dulfy.net/2016/03/16/gw2-matthias-gabrel-salvation-pass-raid-guide/"
+		}
+		],
+		"wing3": [{
+			"name":"Escort",
+			"picture":"escort.png",
+			"link":""
+		},
+		{
+			"name":"Keep Construct",
+			"picture":"kc.png",
+			"link":"http://dulfy.net/2016/06/15/gw2-keep-construct-raid-boss-guide/"
+		},
+		{
+			"name":"Xera",
+			"picture":"xera.png",
+			"link":"http://dulfy.net/2016/06/15/gw2-xera-raid-boss-guide/"
+		}
+		],
+		"wing4": [{
+			"name":"Cairn the Indomitable",
+			"picture":"cairn.png",
+			"link":""
+		},
+		{
+			"name":"Mursaat Overseer",
+			"picture":"mursaat.png",
+			"link":"http://dulfy.net/2017/02/17/gw2-mursaat-overseer-raid-boss-guide/"
+		},
+		{
+			"name":"Samarog",
+			"picture":"samarog.png",
+			"link":"http://dulfy.net/2017/02/11/gw2-samarog-raid-boss-guide/"
+		},
+		{
+			"name":"Deimos",
+			"picture":"deimos.png",
+			"link":"http://dulfy.net/2017/02/13/gw2-deimos-raid-boss-guide/"
+		}
+		]
+	}
+
+}
