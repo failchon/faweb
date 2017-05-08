@@ -67,10 +67,6 @@ export class FeaturesComponent  {
 			console.log(this.wvwtrack);
 
 		});
-
-		 this.tavernimagepath = '/assets/images/contribution/tavern.png';
-		 this.nodesimagepath = '/assets/images/contribution/nodes.png';
-		 this.moreimagepath = '/assets/images/contribution/more.png';
  }
 
 }
