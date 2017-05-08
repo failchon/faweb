@@ -1,0 +1,36 @@
+{
+  "promo": {
+    "promoDesc": [{
+      "id": 1,
+      "title": "Welcome to Fearless Alliance [FA]",
+      "description": " The guild's main focus is PvE. That means that we focus a lot on dungeons, fractals, raids and other general PvE content. We offer training for people that want to understand how dungeons, fractals and raid work, since we think that they are an important aspect of the game. We also have some PvPers if you would like something like that!",
+      "descriptionSecond": " Fearless Alliance is an active, friendly and helpful guild which purpose is to gather the new and veteran people to train them, teach them the world of Tyria. We welcome any type of player and hope that they treat the guild as their own family and home. ",
+      "titleMore": "Learn more"
+    }]
+  },
+  "enviroment": {
+    "title": "Friendly and Helpful enviroment",
+    "enviromentDescription": [{
+      "id": 1,
+      "title": "Helping our members",
+      "description": "The guild focuses on helping other members in need. We have the dungeon, raid, and fractal training, we like answering the questions of the new people, we help them if they have problems with a mission or any kind of event, we try to teach them some of the mechanics of the game ( such as crafting, wardrobe, etc.. )."
+    }, {
+      "id": 2,
+      "title": "Everyone can speak freely",
+      "description": "Everyone can speak however they want, meaning that if they want for a change in the guild to happen, the officers and leaders will gladly listen to their opinion. However, while the members are able to speak however they want, they still have to respect the rules."
+    }, {
+      "id": 3,
+      "title": "Fractal and Dungeon training",
+      "description": "We offer fractal and dungeon training. We do this because we think that those two are important aspects of the game and they shouldn't be missed. They are also the fun and challenging part of the game."
+    }, {
+      "id": 4,
+      "title": "Family",
+      "description": "The guild wants to make you feel like home. We all want to be a big family, where there are no argues, but just a lot of fun and dicussion!."
+    }]
+  },
+  "communicate": [{
+    "title": "Want an easier way to communicate?",
+    "description": "Discord, in my opinion, is a better alternative than that of Teamspeak and Skype. It offers an easy way to communicate with other people via microphone or typing. It offers the possibility to organise the channels much easier, allows users to share pictures, videos and other stuff that you would want other people to see."
+  }]
+
+}
