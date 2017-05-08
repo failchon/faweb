@@ -1,0 +1,75 @@
+{
+	"join": {
+		"name": "Want an easier way to communicate?",
+		"description": "Discord, in my opinion, is a better alternative than that of Teamspeak and Skype. It offers an easy way to communicate with other people via microphone or typing. It offers the possibility to organise the channels much easier, allows users to share pictures, videos and other stuff that you would want other people to see."
+	},
+	"setup": {
+		"firstSetup": [{
+
+			"id": 1,
+			"description": "First of all, you will have to create an account. You can do that by going to the discord's official website."
+
+		}, {
+
+			"id": 2,
+			"description": "After creating an account, you will have two choices. You either use the web platform of discord or you can download it on your PC. Choose which option you like."
+
+		}, {
+
+			"id": 3,
+			"description": "The next thing would be to connect to our discord server. You can do so by pressing the 'connect' button on our website."
+
+		}],
+		"secondSetup": {
+			"description": "You should be connected to our server now. The last thing would be to setup a push-to-talk button so that we don't hear you breathing.",
+			"descriptionInner": [{
+				"id": 1,
+				"description": "Click on the cogwheel next to your avatar. The user settings wil appear."
+			}, {
+				"id": 2,
+				"description": "After that, simply head over to the Voice option and then you will have something called 'Input mode'. Simply change that to Push-to-talk and then assign a button to it."
+			}],
+			"descriptionSecond": "That's it! You can use our discord server now. However, make sure you read the rules first."
+		}
+	},
+	"rules": {
+		"name": "Discord rules",
+		"firstrules": [{
+			"id": 1,
+			"description": "Try to use your ingame name so that people can recognize you."
+		}, {
+			"id": 2,
+			"description": "Please setup a push-to-talk!. It is not fun to always hear you eating, breathing or talking with someone else that is not on our channel!."
+		}],
+		"secondrules": {
+			"description": "Respect the channels. That means: ",
+			"secondrulesInner": [{
+				"id": 1,
+				"description": "Random chatting should be in #chatterbox."
+			}, {
+				"id": 2,
+				"description": "Raids annoucements and raids discussions should be in their respective channels."
+			}, {
+				"id": 3,
+				"description": "Post images in the #images channel, videos in #videos channel, music can be queued in the #music channel."
+			}]
+		},
+		"thirdrules": {
+			"description": "Some of the rules above apply to the Voice Channels aswell.",
+			"thirdrulesInner": [{
+				"id": 1,
+				"description": "Please do NOT speak in the Music voice channel!. That channel is for people that want to listen to music."
+			}, {
+				"id": 2,
+				"description": "Depending on the activity you are doing, please try to change the channel. Meaning, if you do WvW with another person from the guild, try to use the WvW voice channel."
+			}]
+		},
+		"fourthrules": [{
+			"id": 1,
+			"description": "Please don't offend anyone. If you offended someone, apologize."
+		}, {
+			"id": 2,
+			"description": "If someone offended you, then try to tell them kindly to apologize"
+		}]
+	}
+}
