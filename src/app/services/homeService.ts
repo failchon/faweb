@@ -10,7 +10,7 @@ export class HomeService {
 	}
 
 	getHomeData () : Observable<any> {
-		return this.http.get("faweb/assets/json/home-data.json');
+		return this.http.get("faweb/assets/json/home-data.json");
 		
 	}
 }
