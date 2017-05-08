@@ -11,7 +11,7 @@ export class RaidsService {
 	}
 
 	getAboutData () : Observable<any> {
-		return this.http.get('../assets/json/raids-data.json');
+		return this.http.get('assets/json/raids-data.json');
 		
 	}
 

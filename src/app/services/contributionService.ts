@@ -11,7 +11,7 @@ export class ContributionService {
 	}
 
 	getAboutData () : Observable<any> {
-		return this.http.get('../assets/json/contribution-data.json');
+		return this.http.get('assets/json/contribution-data.json');
 		
 	}
 	getGw2ApiGuild () : Observable<any> {

@@ -11,7 +11,7 @@ export class DiscordService {
 	}
 
 	getAboutData () : Observable<any> {
-		return this.http.get('../assets/json/discord-data.json');
+		return this.http.get('assets/json/discord-data.json');
 		
 	}
 

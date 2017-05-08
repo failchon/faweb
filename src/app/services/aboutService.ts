@@ -11,7 +11,7 @@ export class AboutService {
 	}
 
 	getAboutData () : Observable<any> {
-		return this.http.get('../assets/json/about-data.json');
+		return this.http.get('assets/json/about-data.json');
 		
 	}
 
