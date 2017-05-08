@@ -1,0 +1,13 @@
+<section id="about-rules">
+        <div class="rules-container">
+          <h1 class="rules-title"> Rules </h1>
+          <div class="rules-desc">
+            <h1> General rules </h1>
+            <div class="rules-inner">
+              <ol *ngFor="let item of data">
+                <li> <strong> {{item.title}} </strong>: {{item.description}} </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+</section>

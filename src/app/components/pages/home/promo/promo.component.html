@@ -1,0 +1,14 @@
+<section id="fa-welcome">
+      <div *ngFor="let item of data" id="container">
+        <div class="promo">
+        <ul>
+            <h1> {{item.title}} </h1>
+            <p> {{item.description}} </p>
+            <p> {{item.descriptionSecond}} </p>
+        </ul>
+        </div>
+        <div class="about">
+          <h2>{{item.titleMore}}</h2>
+        </div>
+      </div>
+</section>

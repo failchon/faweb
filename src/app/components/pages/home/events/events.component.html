@@ -1,0 +1,43 @@
+<section id="fa-events">
+      <div class="events-title">
+          <h1> Upcoming events </h1>
+      </div>
+      <div class="events-container">
+        <div class="content-container content-75">
+          <div class="event-detail">
+            <div [ngSwitch]="tab" class="content">
+              <div class="missions" *ngSwitchCase="1" ></div>
+              <div class="wing1" *ngSwitchCase="2" ></div>
+              <div class="wing2" *ngSwitchCase="3" ></div>
+              <div class="wing3" *ngSwitchCase="4" ></div>
+              <div class="wing4" *ngSwitchCase="5" ></div>
+              <div class="default" *ngSwitchDefault ></div>
+            </div>
+          </div>
+        </div>
+        <div class="content-container content-25">
+          <div class="events-list" style="background-color:#35586C;">
+            <div class="event" (mouseover)='setTab(1)'>
+                Guild Missions<br/>
+                {{h | date }} 16:00 GMT
+            </div>
+            <div class="event" (mouseover)='setTab(2)'>
+                Guild Raid - Wing 1<br/>
+                {{firstwing | date }} @ 18:00 GMT
+            </div>
+            <div class="event" (mouseover)='setTab(3)'>
+                Guild Raid - Wing 2<br/>
+                {{secondwing | date}} @ 18:00 GMT
+            </div>
+            <div class="event" (mouseover)='setTab(4)' [style.background-color]="getStyle()">
+                Guild Raid - Wing 3<br/>
+                {{thirdwing | date}} @ 18:00 GMT
+            </div>
+            <div class="event" (mouseover)='setTab(5)'>
+                Guild Raid - Wing 4<br/>
+                {{fourthwing | date}} @ 18:00 GMT
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
