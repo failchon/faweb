@@ -260,6 +260,11 @@ section#fa-events div.events-container {
     color:#fff;
 }
 
+.events-list .event:hover {
+    background-color:#35587A;
+    cursor:pointer;   
+}
+
 .events-list .event:last-child {
     border-bottom:none;
 }

@@ -38,7 +38,7 @@ const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'contribution', component: ContributionComponent },
   { path: 'discord', component: DiscordComponent },
-  { path: 'raid', component: RaidComponent },
+  { path: 'raid', component: RaidComponent }
 ];
 
 @NgModule({

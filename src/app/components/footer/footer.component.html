@@ -6,17 +6,17 @@
               <h1 class="main-edit"> Main </h1>
               <p>
                 
-                <a href="index.html#fa-events"> Events </a> <br>
-                <a href="raids/raids.html"> Raids </a> <br>
-                <a href="contribution/contribution.html"> Contribution </a> <br>
+                <a routerLink="/home" fragment="fa-events" (click)="onAnchorClick()"> Events </a> <br>
+                <a routerLink="/raid" fragment="raids-banner" (click)="onAnchorClick()"> Raids </a> <br>
+                <a routerLink="/contribution" fragment="fa-contrib" (click)="onAnchorClick()"> Contribution </a> <br>
               </p>
             </div>
             <div class="about-nav">
-              
+              <h1 class="about-edit"> About </h1>
               <p>
-                <a href="about/about.html"> About us </a> <br>
-                <a href="about/about.html#about-rules"> Rules </a> <br>
-                <a href="about/about.html#meet-us"> Contact us </a> <br>
+                <a routerLink="/about"> About us </a> <br>
+                <a routerLink="/about" fragment="about-rules" (click)="onAnchorClick()"> Rules </a> <br>
+                <a routerLink="/about" fragment="meet-us" (click)="onAnchorClick()"> Contact us </a> <br>
               </p>
             </div>
             <div class="guides-nav">
@@ -30,7 +30,7 @@
             <div class="connect-nav">
               <h1 class="connect-edit"> Connect </h1>
               <p>
-                <a href="discord/discord.html"> Discord </a>
+                <a href="/discord"> Discord </a>
               </p>
             </div>
           </div>
