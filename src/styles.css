@@ -1595,3 +1595,10 @@ section#discord-rules div#discord-rules-container {
 }
 
 /* edits for discord setup, need to do it in scss, though */
+
+/* small homepage promo edit */
+
+#fa-welcome .about .about-more {
+    color:#8181CC;
+    text-decoration: none;
+}
