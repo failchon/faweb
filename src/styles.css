@@ -1756,6 +1756,11 @@ section#discord-rules div#discord-rules-container {
 .cal-month-view .cal-out-month .cal-event {
   opacity: 0.3; }
 
+.cal-week-view {
+    width:80%;
+    margin:0 auto;
+}
+
 .cal-week-view .cal-day-headers {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1771,10 +1776,15 @@ section#discord-rules div#discord-rules-container {
       -ms-flex: 1;
           flex: 1;
   text-align: center;
-  padding: 5px; }
+  padding: 5px;
+  color:#fff }
 
 .cal-week-view .cal-day-headers .cal-header:not(:last-child) {
   border-right: 1px solid #e1e1e1; }
+
+  .cal-week-view .cal-day-headers .cal-header:hover {
+      color:#000;
+  }
 
 .cal-week-view .cal-day-headers .cal-header:hover,
 .cal-week-view .cal-day-headers .cal-drag-over {
@@ -1807,7 +1817,8 @@ section#discord-rules div#discord-rules-container {
   border-bottom-right-radius: 5px; }
 
 .cal-week-view .cal-header.cal-today {
-  background-color: #e8fde7; }
+  background-color: #e8fde7; 
+  color:#000;}
 
 .cal-week-view .cal-header.cal-weekend span {
   color: #8b0000; }

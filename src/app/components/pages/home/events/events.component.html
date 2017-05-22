@@ -2,42 +2,43 @@
       <div class="events-title">
           <h1> Upcoming events </h1>
       </div>
-      <div class="events-container">
-        <div class="content-container content-75">
-          <div class="event-detail">
-            <div [ngSwitch]="tab" class="content">
-              <div class="missions" *ngSwitchCase="1" ></div>
-              <div class="wing1" *ngSwitchCase="2" ></div>
-              <div class="wing4" *ngSwitchCase="3" ></div>
-              <div class="missions" *ngSwitchCase="4" ></div>
-              <div class="wing1" *ngSwitchCase="5" ></div>
-              <div class="default" *ngSwitchDefault ></div>
-            </div>
-          </div>
-        </div>
-        <div class="content-container content-25">
-          <div class="events-list" style="background-color:#35586C;">
-            <div class="event" (mouseover)='setTab(1)'>
-                Guild Missions<br/>
-                {{h | date }} @ 17:00 GMT
-            </div>
-            <div class="event" (mouseover)='setTab(2)'>
-                Guild Raid <br/>
-                {{firstwing | date }} @ 17:00 GMT
-            </div>
-            <div class="event" (mouseover)='setTab(3)'>
-                Guild Raid Training<br/>
-                {{secondwing | date}} @ 17:00 GMT
-            </div>
-            <div class="event" (mouseover)='setTab(4)'>
-                Guild Missions <br/>
-                {{thirdwing | date}} @ 17:00 GMT
-            </div>
-            <div class="event" (mouseover)='setTab(5)'>
-                Guild Raid <br/>
-                {{fourthwing | date}} @ 17:00 GMT
-            </div>
-          </div>
-        </div>
-      </div>
+      <mwl-demo-utils-calendar-header
+  [(view)]="view"
+  [(viewDate)]="viewDate"
+  (viewDateChange)="fetchEvents()"
+  (viewChange)="fetchEvents()">
+</mwl-demo-utils-calendar-header>
+
+<ng-template #loading>
+  <div class="text-center">
+    <i class="fa fa-spin fa-spinner fa-5x"></i>
+    <br>
+    Loading events...
+  </div>
+</ng-template>
+
+<div *ngIf="events$ | async; else loading; let events">
+  <div [ngSwitch]="view">
+   <!-- <mwl-calendar-month-view
+      *ngSwitchCase="'month'"
+      [viewDate]="viewDate"
+      [events]="events"
+      [activeDayIsOpen]="activeDayIsOpen"
+      (dayClicked)="dayClicked($event.day)"
+      (eventClicked)="eventClicked($event.event)">
+    </mwl-calendar-month-view>-->
+    <mwl-calendar-week-view
+      *ngSwitchCase="'week'"
+      [viewDate]="viewDate"
+      [events]="events"
+      (eventClicked)="eventClicked($event.event)">
+    </mwl-calendar-week-view>
+   <!-- <mwl-calendar-day-view
+      *ngSwitchCase="'day'"
+      [viewDate]="viewDate"
+      [events]="events"
+      (eventClicked)="eventClicked($event.event)">
+    </mwl-calendar-day-view>-->
+  </div>
+</div>
 </section>
