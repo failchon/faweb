@@ -8,8 +8,8 @@ import { Http } from '@angular/http';
   templateUrl: 'events.component.html'
 })
 export class EventsComponent  {
-	 h = new Date(2017,4,28);	 
-	 missions = new Date(2017,4,28);	
+	 h = new Date(2017,4,21);	 
+	 missions = new Date(2017,4,21);	
 	 firstwing = this.missions.setDate(this.missions.getDate() + 1);
 	 secondwing = this.missions.setDate(this.missions.getDate() + 4);
 	 thirdwing = this.missions.setDate(this.missions.getDate() + 2);
