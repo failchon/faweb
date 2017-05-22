@@ -2,6 +2,12 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpModule } from '@angular/http';
+import { IdlePreload, IdlePreloadModule } from '@angularclass/idle-preload';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CalendarModule } from 'angular-calendar';
+import { CommonModule } from '@angular/common';
+import { DemoUtilsModule } from '../demo-utils/module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent }  from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -44,7 +50,12 @@ const appRoutes: Routes = [
 @NgModule({
   imports:      [ BrowserModule, 
   				        RouterModule.forRoot(appRoutes), 
-  				        HttpModule ],
+  				        HttpModule,
+                  BrowserAnimationsModule,
+                  CommonModule,
+                  CalendarModule.forRoot(),
+                  DemoUtilsModule,
+                  NgbModule ],
 
   declarations: [ AppComponent, 
       				    NavbarComponent,
