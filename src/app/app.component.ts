@@ -10,7 +10,6 @@ import { colors } from '../demo-utils/colors';
 
 @Component({
   selector: 'my-app',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './app.component.html',
 })
 
