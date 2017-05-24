@@ -12,6 +12,7 @@ export class EncounterComponent  {
 	wing3 : any;
 	wing4 : any;
 
+	// Get json data from raids-data.json
 	constructor(rangService : RaidsService){
 		rangService.getAboutData().subscribe(data => {
 			this.wing1 = data.json().encounter.wing1;

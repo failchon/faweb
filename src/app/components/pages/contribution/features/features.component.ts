@@ -21,6 +21,8 @@ export class FeaturesComponent  {
 	nodesimagepath: any;
 	moreimagepath: any;
 
+
+	//retrive data from guild wars 2 official API
 	constructor(rangService : ContributionService){
 		rangService.getGw2ApiCraftingBoost().subscribe(data => {
 			this.data = data.json();

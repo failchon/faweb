@@ -19,6 +19,7 @@ export class IntroductionComponent  {
 	notes:any;
 	notes2:any;
 
+	// Get json data from raids-data.json
 	constructor(rangService : RaidsService){
 		rangService.getAboutData().subscribe(data => {
 			this.data = data.json().dedication;

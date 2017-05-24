@@ -1240,6 +1240,14 @@ section#fa-join div#discord-container div.right-discord p {
         margin-top: 10px;
         line-height: 20px;
     }
+
+    .cal-month-view {
+        display:block;
+    }
+
+    .cal-week-view {
+        display:none;
+    }
 }
 
 
@@ -1445,7 +1453,7 @@ div#contrib-features div.features-help div.feat-don-inner div.about-features {
     div#contrib-features div.features-help div.feat-don-inner div.about-features {
         display: inline-block;
         border: 2px solid #fff;
-        margin-left: 170px;
+        margin-left: 149px;
         padding: 20px 0px 20px 0px;
     }
 }
@@ -1523,6 +1531,14 @@ section#fa-features div.features-container div.features-more div.features-more-i
         width:33%;
     }
 
+    .cal-month-view {
+        display:none;
+    }
+
+    .cal-week-view {
+        display:block !important;
+    }
+
 
 }
 
@@ -1569,6 +1585,7 @@ section#discord-rules div#discord-rules-container {
     font-family: 'Open Sans', sans-serif;
     }
 
+
 }
 
 @media (min-width: 1200px) {
@@ -1590,6 +1607,14 @@ section#discord-rules div#discord-rules-container {
 
     .con-pic {
         width:500px;
+    }
+
+    .cal-month-view {
+        display:none;
+    }
+
+    .cal-week-view {
+        display:block !important;
     }
 
 }
@@ -1614,30 +1639,28 @@ section#discord-rules div#discord-rules-container {
   text-align: center;
   font-weight: bolder; }
 
-.cal-month-view .cal-cell-row:hover {
-  background-color: #fafafa; }
-
 .cal-month-view .cal-header .cal-cell {
-  padding: 5px 0;
-  overflow: hidden;
-  -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
-  display: block;
-  white-space: nowrap; }
+  padding: 8px 0;
+  display: block;;
+  color: #ccc;
+  font-size: 11px; }
 
 .cal-month-view .cal-cell-row .cal-cell:hover,
 .cal-month-view .cal-cell.cal-has-events.cal-open {
-  background-color: #ededed; }
+  background-color: #35586C; }
 
 .cal-month-view .cal-days {
   border: 1px solid #e1e1e1;
   border-bottom: 0; }
 
 .cal-month-view .cal-cell-top {
-  min-height: 78px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1; }
+
+.cal-week-view {
+    display:none;
+}
 
 .cal-month-view .cal-cell-row {
   display: -webkit-box;
@@ -1662,30 +1685,16 @@ section#discord-rules div#discord-rules-container {
       -ms-flex-align: stretch;
           align-items: stretch; }
 
-.cal-month-view .cal-day-cell {
-  min-height: 100px; }
-
 .cal-month-view .cal-day-cell:not(:last-child) {
   border-right: 1px solid #e1e1e1; }
 
 .cal-month-view .cal-days .cal-cell-row {
   border-bottom: 1px solid #e1e1e1; }
 
-.cal-month-view .cal-day-badge {
-  margin-top: 18px;
-  margin-left: 10px;
-  background-color: #b94a48;
-  display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1;
-  color: white;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  border-radius: 10px; }
+.cal-month-view {
+  width:90%;
+  margin: 0 auto;
+}
 
 .cal-month-view .cal-day-number {
   font-size: 1.2em;
@@ -1694,7 +1703,8 @@ section#discord-rules div#discord-rules-container {
   margin-top: 15px;
   margin-right: 15px;
   float: right;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  color:#fff; }
 
 .cal-month-view .cal-events {
   -webkit-box-flex: 1;
@@ -1727,13 +1737,17 @@ section#discord-rules div#discord-rules-container {
   cursor: default; }
 
 .cal-month-view .cal-day-cell.cal-weekend .cal-day-number {
-  color: darkred; }
+  color: #fff; }
+
+.cal-day-badge {
+    display:none;
+}
 
 .cal-month-view .cal-day-cell.cal-today {
   background-color: #e8fde7; }
 
 .cal-month-view .cal-day-cell.cal-today .cal-day-number {
-  font-size: 1.9em; }
+  color:#000; }
 
 .cal-month-view .cal-day-cell.cal-drag-over {
   background-color: #e0e0e0 !important; }
@@ -1741,9 +1755,8 @@ section#discord-rules div#discord-rules-container {
 .cal-month-view .cal-open-day-events {
   padding: 15px;
   color: white;
-  background-color: #555;
-  -webkit-box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.5); }
+  background-color: #35586C;
+  border-bottom:1px solid #fff; }
 
 .btn-primary {
   background-color: #2A4658 !important;
@@ -1881,11 +1894,11 @@ section#discord-rules div#discord-rules-container {
   font-size: 12px;
   overflow: hidden;
   -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
+  text-overflow: ellipsis;
   white-space: nowrap;
   height: 100%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 .cal-day-view .cal-draggable {
   cursor: move; }
@@ -1901,3 +1914,21 @@ section#discord-rules div#discord-rules-container {
 .cal-day-view .cal-all-day-event {
   padding: 8px;
   border: solid 1px; }
+
+.cal-starts-within-week .cal-event-title {
+  text-decoration:none;
+}
+
+.cal-week-view .cal-day-headers .cal-header:hover {
+  cursor:pointer;
+}
+
+.btn-group {
+  cursor:pointer;  
+}
+
+.btn-group .btn-primary:hover {
+  background-color:#fff !important;
+  color:#000;
+  border-color:#fff !important;  
+}

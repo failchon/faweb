@@ -12,6 +12,7 @@ export class SetupComponent  {
 	secondSetup: any;
 	secondSetupInner:any;
 
+	//retrive data from discord-data.json
 	constructor(rangService : DiscordService){
 		rangService.getAboutData().subscribe(data => {
 			this.data = data.json().setup.firstSetup;

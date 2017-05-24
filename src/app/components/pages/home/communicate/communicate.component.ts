@@ -10,6 +10,7 @@ export class CommunicateComponent  {
 
 	data : any;
 
+	// Get json data from home-data.json
 	constructor(rangService : HomeService){
 		rangService.getHomeData().subscribe(data => {
 			this.data = data.json().communicate;

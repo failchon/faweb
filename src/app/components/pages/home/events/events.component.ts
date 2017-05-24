@@ -9,14 +9,16 @@ import { isSameMonth, isSameDay, startOfMonth, endOfMonth, startOfWeek, endOfWee
 import { CalendarEvent, CalendarEventTimesChangedEvent } from 'angular-calendar';
 import { colors } from 'demo-utils/colors';
 
-interface Film {
+// function that will help us display data
+//FAE = Fearless Alliance Events
+interface Fae {
   id: number;
   title: string;
   release_date: string;
 }
 
-interface FilmEvent extends CalendarEvent {
-  film: Film;
+interface FaeEvent extends CalendarEvent {
+  fae: Fae;
 }
 
 @Component({
@@ -25,13 +27,13 @@ interface FilmEvent extends CalendarEvent {
   templateUrl: 'events.component.html'
 })
 export class EventsComponent  {
-view: string = 'week';
+ view: string = 'month';
  //view: string = 'month';
  //view: string = 'day';
 
   viewDate: Date = new Date();
 
-  events$: Observable<FilmEvent[]>;
+  events$: Observable<FaeEvent[]>;
 
   activeDayIsOpen: boolean = false;
 
@@ -41,20 +43,25 @@ view: string = 'week';
     this.fetchEvents();
   }
 
+
   fetchEvents(): void {
 
+    //this will help us retrive the start date
     const getStart: any = {
       month: startOfMonth,
       week: startOfWeek,
       day: startOfDay
     }[this.view];
 
+    //this will help us retrive the end date
     const getEnd: any = {
       month: endOfMonth,
       week: endOfWeek,
       day: endOfDay
     }[this.view];
 
+    //retrive YYYY-MM-DD, title and id from birthday-json
+    //this can also be used to retrive data from an url
     const search: URLSearchParams = new URLSearchParams();
     search.set('primary_release_date.gte', format(getStart(this.viewDate), 'YYYY-MM-DD'));
     search.set('primary_release_date.lte', format(getEnd(this.viewDate), 'YYYY-MM-DD'));
@@ -62,18 +69,20 @@ view: string = 'week';
     this.events$ = this.http
       .get('assets/json/birthday-data.json', {search})
       .map(res => res.json())
-      .map(({results}: {results: Film[]}) => {
-        return results.map((film: Film) => {
+      .map(({results}: {results: Fae[]}) => {
+        return results.map((fae: Fae) => {
           return {
-            title: film.title,
-            start: new Date(film.release_date),
+            title: fae.title,
+            start: new Date(fae.release_date),
             color: colors.yellow,
-            film
+            fae
           };
         });
       });
   }
 
+  // display the calendar and its data
+  //the function also helps us with clickable events, when displaying the MONTHLY calendar
   dayClicked({date, events}: {date: Date, events: CalendarEvent[]}): void {
 
     if (isSameMonth(date, this.viewDate)) {

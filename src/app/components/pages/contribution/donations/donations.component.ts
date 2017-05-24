@@ -10,6 +10,7 @@ export class DonationsComponent  {
 
 	data :any;
 
+	//retrive data from contribution-data.json
 	constructor(rangService : ContributionService){
 		rangService.getGw2ApiGuild().subscribe(data => {
 			this.data = data.json();

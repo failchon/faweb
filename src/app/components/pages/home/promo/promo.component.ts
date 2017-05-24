@@ -10,6 +10,7 @@ export class PromoComponent  {
 
 	data : any;
 
+	//retrive data from home-data.json
 	constructor(rangService : HomeService){
 		rangService.getHomeData().subscribe(data => {
 			this.data = data.json().promo.promoDesc;

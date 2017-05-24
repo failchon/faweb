@@ -9,6 +9,7 @@ export class RulesComponent  {
 
 	data : any;
 
+	//retrive data from about-data.json
 	constructor(rangService : AboutService){
 		rangService.getAboutData().subscribe(data => {
 			this.data = data.json().rules;
