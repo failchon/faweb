@@ -41,41 +41,17 @@
     "rank": "Regent",
     "picture": "allard.png"
   }, {
-    "id": 5,
-    "name": "Nevetrus",
-    "igname": "Gixo",
-    "rank": "Regent",
-    "picture": "gixo.png"
-  }, {
     "id": 6,
     "name": "CupCake Apostle",
     "igname": "Savarth",
     "rank": "Regent",
     "picture": "cupcake.png"
   }, {
-    "id": 7,
-    "name": "Domain Guard",
-    "igname": "Domain",
-    "rank": "Marshall",
-    "picture": "domain.png"
-  }, {
     "id": 8,
     "name": "Coldcast",
     "igname": "Harfang",
     "rank": "Marshall",
     "picture": "harfang.png"
-  }, {
-    "id": 9,
-    "name": "Siffer",
-    "igname": "SIffer",
-    "rank": "Marshall",
-    "picture": "siff.png"
-  }, {
-    "id": 10,
-    "name": "Thomaz",
-    "igname": "Hukk ",
-    "rank": "Marshall",
-    "picture": "hukk.png"
   }, {
     "id": 11,
     "name": "Bjorn",
