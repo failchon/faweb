@@ -31,9 +31,34 @@
       "title": "Guild Missions"
     },
     {
-      "release_date": "2017-05-30",
+      "release_date": "2017-05-29",
       "id": 7,
       "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-06-2",
+      "id": 8,
+      "title": "Guild Raid Training"
+    },
+    {
+      "release_date": "2017-06-4",
+      "id": 9,
+      "title": "Guild Missions"
+    },
+    {
+      "release_date": "2017-06-5",
+      "id": 10,
+      "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-08-3",
+      "id": 11,
+      "title": "Moldehord's Birthday"
+    },
+    {
+      "release_date": "2017-11-13",
+      "id": 12,
+      "title": "BlackArrow's Birthday"
     }
   ]
 }

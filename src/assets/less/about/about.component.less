@@ -1,0 +1,374 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Chivo|Fjord+One|Open+Sans');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END CSS RESET */
+
+/* FA US CSS */
+
+section#fa-about {
+
+    @media (min-width: 1200px) {
+        min-height: 500px;
+        margin: 0 auto;
+        width: 1400px;
+    }
+
+    img {
+
+        @media (min-width: 1200px) {
+            height:auto;
+        }
+    }
+}
+
+section#fa-us {
+    
+    @media (min-width: 760px) {
+        min-height: 305px;
+        padding: 12px;
+    }
+
+    @media (min-width: 1200px) {
+        min-height: 305px;
+        margin: 0 auto;
+        padding: 20px;
+        width: 1200px;
+    }
+
+    .us-container {
+        margin-top: 60px;
+        text-align: center;
+
+        @media (min-width: 760px) {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+        }
+
+        @media (min-width: 1200px) {
+            align-items:center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        div.us-description {
+            display: inline-block;
+            padding: 20px;
+            width: 300px;
+
+            h1 {
+                font-size: 22px;
+                padding: 10px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 19px;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+/* END FA US CSS */
+
+/* MEET US CSS */
+
+section#meet-us {
+
+    h1.meet-us-bar {
+        background: #333399;
+        color: #fff;
+        font-size: 30px;
+        padding: 30px;
+        text-align: center;
+    }
+
+    ul {
+        padding:0px;
+    }
+
+    li.founder {
+        padding: 20px;
+        text-align: center;
+
+        .meetus {
+            display:inline-block;
+        }
+
+        img {
+            display: inline-block;
+            height: 450px;
+            width: 450px;
+        }
+
+        div.description-us {
+
+            h1 {
+                color: #333;
+                font-size: 26px;
+                font-weight: 500;
+                line-height: 1em;
+                padding:20px 0px 10px 20px
+            }
+
+            h2 {
+                font-style: italic;
+                padding-left: 20px;
+            }
+
+            p {
+                line-height: 17px;
+                padding-top: 13px;
+                padding-left: 20px;
+
+                strong {
+                    font-weight:bold;
+                }
+            }
+        }
+    }
+
+    li {
+
+        &:first-child {
+            
+            .description-us {
+                text-align: left;
+                width: 452px;
+            }
+        }
+
+        &:nth-child(2) {
+
+            .description-us {
+                display: inline-block;
+                margin-left: 88px;
+                text-align:left;
+                vertical-align: -12rem;
+                width: 655px;
+            }
+
+            .pic {
+                float:left;
+            }
+        }
+
+        &:nth-child(3) {
+
+            .description-us {
+                display: inline-block;
+                margin-right: 88px;
+                text-align:right;
+                vertical-align: -12rem;
+                width: 655px;
+            }
+
+            .pic {
+                float:right;
+            }
+        }
+
+        &:nth-child(2),
+        &:nth-child(3) {
+            padding:20px;
+
+            div.meetus {
+                margin:0 auto;
+                width:1200px;
+            }
+        }
+
+        &:nth-child(n+4) {
+            
+            img {
+                border: 1px solid;
+                display: inline-block;
+                height: 320px;
+                width: 320px;
+            }
+        }
+
+        &:nth-child(n+7) {
+            
+            img {
+                border: 1px solid;
+                display: inline-block;
+                height: 300px;
+                width: 300px;
+            }
+        }
+
+        &:nth-child(n+4) {
+            display:inline-block;
+            margin-left:30px;
+            padding: 20px;
+            text-align: left;
+            width: 370px;
+
+            div.meetus {
+                display:inline-block;
+                padding:25px;
+            }
+
+            .description-us {
+                width:100%;
+            }
+        }
+    }
+}
+
+/* END MEET US CSS */
+
+/* ABOUT RULES CSS */
+
+section#about-rules {
+
+    h1.rules-title {
+        background: #333399;
+        color: #fff;
+        font-size: 30px;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .rules-desc {
+        margin: 0 auto;
+        padding: 11px;
+        text-align: center;
+        width:90%;
+
+        @media (min-width: 1200px) {
+            margin: 0 auto;
+            padding: 60px;
+            text-align: center;
+            width: 1200px; 
+        }
+
+        h1 {
+            font-size: 30px;
+            padding: 20px;
+        }
+
+        .rules-inner {
+            font-family: 'Open Sans', sans-serif;
+            padding: 20px;
+            text-align: justify;
+
+            ol {
+                font-size: 14px;
+                list-style-type: decimal;
+                line-height: 20px;
+            }
+
+            li {
+                padding:4px;
+
+                strong {
+                    font-weight:bold;
+                }
+            }
+        }
+    }
+}
+
+/* END ABOUT RULES CSS */
+
+/* FOOTER CSS */
+
+footer#fa-footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+
+    .footer-nav {
+        color: #ccc;
+        margin: 0 auto;
+        overflow: hidden;
+        text-align: center;
+        width: 960px;
+
+        div.top-nav {
+            margin-top: 30px;
+            overflow: hidden;
+
+            .main-nav,
+            .about-nav,
+            .guides-nav,
+            .connect-nav {
+                float:left;
+                padding:20px;
+                text-align:left;
+                width:200px;
+
+                h1 {
+                    color:#666;
+                    font-size:20px;
+                    margin-bottom:15px;
+                    padding-left:9px;
+                }
+
+                p {
+                    font-size:14px;
+                    line-height:20px;
+                    padding:10px;
+                }
+            }
+        }
+    }
+}
+
+
+/* END FOOTER CSS */
