@@ -1,25 +1,37 @@
 <header>
       <div id="logo">
         <h1> {{projectName}} </h1>
+        <div class="navbar navbar-inverse">
+          <button type="button" class="navbar-toggle collapsed" (click)="toggleState()">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+          </button>
+        </div>
       </div>
       <div id="nav">
-        <ul>
-          <li> 
-            <a routerLink="/home" routerLinkActive="active"> Home </a>
-          </li>
-          <li class="about-us"> 
-            <a routerLink="/about" routerLinkActive="active"> About </a>
-          </li>
-          <li> 
-            <a routerLink="/raid" routerLinkActive="active"> Raids </a>
-          </li>
-          <li> 
-            <a routerLink="/contribution" routerLinkActive="active"> Contribution </a>
-          </li>
-          <li> 
-            <a routerLink="/discord" routerLinkActive="active"> Discord </a>
-          </li>
-        </ul>
+        <nav>
+          <div class="collapse navbar-collapse" [ngClass]="{ 'in': isIn }" >
+            <ul class="nav navbar-nav">
+               <li> 
+                 <a routerLink="/home" routerLinkActive="active"> Home </a>
+              </li>
+              <li class="about-us"> 
+                <a routerLink="/about" routerLinkActive="active"> About </a>
+              </li>
+              <li> 
+                <a routerLink="/raid" routerLinkActive="active"> Raids </a>
+              </li>
+              <li> 
+                <a routerLink="/contribution" routerLinkActive="active"> Contribution </a>
+              </li>
+              <!--<li> 
+                <a routerLink="/discord" routerLinkActive="active"> Discord </a>
+              </li>-->
+            </ul>
+          </div>
+        </nav>
       </div>
 </header>
 <router-outlet></router-outlet>

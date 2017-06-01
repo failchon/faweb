@@ -10,4 +10,10 @@ export class NavbarComponent  {
   	constructor() {
   		this.projectName= "Fearless Alliance [FA]"
   	}
+
+    isIn = false;   // store state
+    toggleState() { // click handler
+        let bool = this.isIn;
+        this.isIn = bool === false ? true : false; 
+    }
  }
