@@ -3009,6 +3009,42 @@ section#fa-join div#discord-container {
   margin: 0 auto;
   padding-bottom: 25px;
 }
+@media (max-width: 505px) {
+  section#fa-join div#discord-container {
+    padding: 20px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 506px) and (max-width: 768px) {
+  section#fa-join div#discord-container {
+    padding: 20px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1102px) {
+  section#fa-join div#discord-container {
+    padding: 20px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+}
 section#fa-join div.right-discord {
   color: #fff;
   padding: 40px;
@@ -3032,20 +3068,74 @@ section#fa-setup #setup-container .setup-title {
 section#fa-setup #setup-container div.setup-steps {
   padding: 20px;
 }
-section#fa-setup #setup-container div.setup-steps li {
+section#fa-setup #setup-container div.setup-steps ul {
+  list-style: decimal;
+}
+section#fa-setup #setup-container div.setup-steps ul li {
   padding: 5px;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
 }
+section#fa-setup #setup-container div.setup-steps ul li ul {
+  padding: 8px 5px 0px 5px;
+  list-style: disc;
+}
+section#fa-setup #setup-container div.setup-steps ul li ul li {
+  font-size: 13px;
+}
+section#fa-setup #setup-container div.setup-steps ul li a {
+  text-decoration: none;
+  color: #738bd7;
+}
 section#fa-setup #setup-container div.setup-steps .con-pic {
   width: 500px;
+}
+@media (max-width: 505px) {
+  section#fa-setup #setup-container div.setup-steps .con-pic {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 506px) and (max-width: 768px) {
+  section#fa-setup #setup-container div.setup-steps .con-pic {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1102px) {
+  section#fa-setup #setup-container div.setup-steps .con-pic {
+    width: 100%;
+    height: auto;
+  }
 }
 section#discord-rules div#discord-rules-container {
   width: 90%;
   margin: 0 auto;
 }
-section#discord-rules div#discord-rules-container li {
+section#discord-rules div#discord-rules-container h1.discord-rules-title {
+  text-align: center;
+  padding: 15px 40px 10px 40px;
+  font-size: 26px;
+}
+section#discord-rules div#discord-rules-container div.discord-rules {
+  padding: 20px;
+}
+section#discord-rules div#discord-rules-container ul {
+  list-style: decimal;
+}
+section#discord-rules div#discord-rules-container ul li {
   padding: 5px;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
+}
+section#discord-rules div#discord-rules-container ul li ul {
+  padding: 8px 5px 0px 5px;
+  list-style: disc;
+}
+section#discord-rules div#discord-rules-container ul li ul li {
+  font-size: 13px;
+}
+section#discord-rules div#discord-rules-container ul li a {
+  text-decoration: none;
+  color: #738bd7;
 }
