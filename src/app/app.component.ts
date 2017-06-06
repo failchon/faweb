@@ -9,6 +9,7 @@ import { CalendarEvent, CalendarEventTimesChangedEvent } from 'angular-calendar'
 import { colors } from '../demo-utils/colors';
 import { Router, NavigationEnd} from "@angular/router";
 
+
 declare var ga:Function;
 
 @Component({
