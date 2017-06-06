@@ -3,7 +3,7 @@
   "us": [{
     "id": 1,
     "title": "Friendly",
-    "description": "FA is a very friendly guild, where people can enjoy and have a laugh sometimes, without worrying about being treated poorly by other people just because they are new to the game."
+    "description": "FA is a very friendly guild, where people can enjoy and have a laugh sometimes, without worrying about being treated poorly by other people just because they are new to raids or fractals."
   }, {
     "id": 2,
     "title": "Multicultural and Multiserver",
@@ -11,7 +11,7 @@
   }, {
     "id": 3,
     "title": "Helpful",
-    "description": "We teach new people the game. That's what the guild has been focusing until now , and that's what we want to focus all the time. It gives a nice feeling when people start enjoying the game, because of our help."
+    "description": "We teach new people how to raid or do fractals. That's what the guild has been focusing until now , and that's what we want to focus all the time. It gives a nice feeling when people start enjoying the game, because of our help."
   }],
   "meetus": [{
     "id": 1,
@@ -32,7 +32,7 @@
     "name": "Soxia",
     "igname": "AlexSox",
     "rank": "Co-leader",
-    "description": "Soxia is the co-leader of the guild, basically doing the job of the leader when he is not able to do them( such as : guild missions and other events).",
+    "description": "Soxia is the co-leader of the guild, basically doing the job of the leader when he is not able to do them (such as : guild missions and other events).",
     "picture": "soxi.png"
   }, {
     "id": 4,
@@ -41,23 +41,47 @@
     "rank": "Regent",
     "picture": "allard.png"
   }, {
-    "id": 6,
+    "id": 5,
     "name": "CupCake Apostle",
     "igname": "Savarth",
     "rank": "Regent",
     "picture": "cupcake.png"
   }, {
-    "id": 8,
+    "id": 6,
     "name": "Coldcast",
     "igname": "Harfang",
-    "rank": "Marshall",
+    "rank": "Regent",
     "picture": "harfang.png"
   }, {
-    "id": 11,
+    "id": 7,
+    "name": "Ripi",
+    "igname": "Ripi",
+    "rank": "Regent",
+    "picture": "ripi.png"
+  }, {
+    "id": 8,
     "name": "Bjorn",
     "igname": "Bjorn ",
     "rank": "Marshall",
     "picture": "bjorn.png"
+  }, {
+    "id": 9,
+    "name": "DragonXneon",
+    "igname": "DragonXneon ",
+    "rank": "Marshall",
+    "picture": "dragon.png"
+  }, {
+    "id": 10,
+    "name": "Morrowind Darkness",
+    "igname": "MorrowindDarkness ",
+    "rank": "Marshall",
+    "picture": "morrow.png"
+  }, {
+    "id": 11,
+    "name": "Kara Curly",
+    "igname": "Mentor ",
+    "rank": "Marshall",
+    "picture": "mentor.png"
   }],
 
   "rules": [{
@@ -67,7 +91,7 @@
   }, {
     "id": 2,
     "title": "Helpful guild",
-    "description": "Feel free to help out the members in need, however do not expect some kind of reward from. It's a natural thing for guild members to help other guild members"
+    "description": "Feel free to help out the members in need, however do not expect some kind of reward from helping them out. It's a natural thing for guild members to help other guild members."
   }, {
     "id": 3,
     "title": "Religion and Politics",

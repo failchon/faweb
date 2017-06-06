@@ -62,8 +62,159 @@
     },
     {
       "release_date": "2017-04-8",
-      "id": 12,
+      "id": 13,
       "title": "Rubyca's Birthday"
+    },
+    {
+      "release_date": "2017-06-11",
+      "id": 14,
+      "title": "Guild Missions"
+    },
+    {
+      "release_date": "2017-06-18",
+      "id": 15,
+      "title": "Guild Missions"
+    },
+    {
+      "release_date": "2017-06-25",
+      "id": 16,
+      "title": "Guild Missions"
+    },
+    {
+      "release_date": "2017-07-2",
+      "id": 17,
+      "title": "Guild Missions"
+    },
+    {
+      "release_date": "2017-07-9",
+      "id": 18,
+      "title": "Guild Missions"
+    },
+    {
+      "release_date": "2017-07-16",
+      "id": 19,
+      "title": "Guild Missions"
+    },
+    {
+      "release_date": "2017-07-23",
+      "id": 20,
+      "title": "Guild Missions"
+    },
+    {
+      "release_date": "2017-07-30",
+      "id": 21,
+      "title": "Guild Missions"
+    },
+    {
+      "release_date": "2017-08-6",
+      "id": 22,
+      "title": "Guild Missions"
+    },
+    {
+      "release_date": "2017-08-13",
+      "id": 23,
+      "title": "Guild Missions"
+    },
+    {
+      "release_date": "2017-06-12",
+      "id": 24,
+      "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-06-19",
+      "id": 25,
+      "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-06-26",
+      "id": 26,
+      "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-07-3",
+      "id": 27,
+      "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-07-10",
+      "id": 28,
+      "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-07-17",
+      "id": 29,
+      "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-07-24",
+      "id": 30,
+      "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-07-31",
+      "id": 31,
+      "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-08-7",
+      "id": 32,
+      "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-08-14",
+      "id": 33,
+      "title": "Guild Raid"
+    },
+    {
+      "release_date": "2017-06-9",
+      "id": 34,
+      "title": "Guild Raid Training"
+    },
+    {
+      "release_date": "2017-06-16",
+      "id": 35,
+      "title": "Guild Raid Training"
+    },
+    {
+      "release_date": "2017-06-23",
+      "id": 36,
+      "title": "Guild Raid Training"
+    },
+    {
+      "release_date": "2017-06-30",
+      "id": 37,
+      "title": "Guild Raid Training"
+    },
+    {
+      "release_date": "2017-07-7",
+      "id": 38,
+      "title": "Guild Raid Training"
+    },
+    {
+      "release_date": "2017-07-14",
+      "id": 39,
+      "title": "Guild Raid Training"
+    },
+    {
+      "release_date": "2017-07-21",
+      "id": 40,
+      "title": "Guild Raid Training"
+    },
+    {
+      "release_date": "2017-07-28",
+      "id": 41,
+      "title": "Guild Raid Training"
+    },
+    {
+      "release_date": "2017-08-4",
+      "id": 42,
+      "title": "Guild Raid Training"
+    },
+    {
+      "release_date": "2017-08-11",
+      "id": 43,
+      "title": "Guild Raid Training"
     }
+
   ]
 }

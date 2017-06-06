@@ -220,6 +220,12 @@ header div#nav ul li a:active {
   color: #ccc;
   text-decoration: none;
 }
+header div#nav ul li a:focus {
+  background-color: #000;
+}
+header div#nav ul li a:hover {
+  background-color: #000;
+}
 header div#nav .navbar-collapse {
   padding-left: 31px;
 }
@@ -1456,32 +1462,32 @@ section#meet-us li:nth-child(3) {
   }
 }
 @media (max-width: 505px) {
-  section#meet-us li:nth-child(n+7) img {
+  section#meet-us li:nth-child(n+8) img {
     height: auto;
     width: 100%;
   }
 }
 @media only screen and (min-width: 506px) and (max-width: 768px) {
-  section#meet-us li:nth-child(n+7) img {
+  section#meet-us li:nth-child(n+8) img {
     height: auto;
     width: 100%;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1102px) {
-  section#meet-us li:nth-child(n+7) img {
+  section#meet-us li:nth-child(n+8) img {
     height: auto;
     width: 70%;
   }
 }
 @media only screen and (min-width: 1103px) and (max-width: 1240px) {
-  section#meet-us li:nth-child(n+7) img {
+  section#meet-us li:nth-child(n+8) img {
     display: inline-block;
     height: 300px;
     width: 300px;
   }
 }
 @media only screen and (min-width: 1241px) {
-  section#meet-us li:nth-child(n+7) img {
+  section#meet-us li:nth-child(n+8) img {
     display: inline-block;
     height: 300px;
     width: 300px;
@@ -2989,3 +2995,57 @@ footer#fa-footer div#creation h2 {
   padding: 7px;
 }
 /* END FOOTER CSS */
+section#fa-join {
+  overflow: hidden;
+  background: #738bd7;
+}
+section#fa-join div#discord-container {
+  padding: 20px 0px 0px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+section#fa-join div.right-discord {
+  color: #fff;
+  padding: 40px;
+}
+section#fa-join div.right-discord h1 {
+  font-size: 29px;
+}
+section#fa-join div.right-discord p {
+  margin-top: 10px;
+  line-height: 20px;
+}
+section#fa-setup #setup-container {
+  width: 90%;
+  margin: 0 auto;
+}
+section#fa-setup #setup-container .setup-title {
+  text-align: center;
+  padding: 40px 40px 10px 40px;
+  font-size: 26px;
+}
+section#fa-setup #setup-container div.setup-steps {
+  padding: 20px;
+}
+section#fa-setup #setup-container div.setup-steps li {
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+section#fa-setup #setup-container div.setup-steps .con-pic {
+  width: 500px;
+}
+section#discord-rules div#discord-rules-container {
+  width: 90%;
+  margin: 0 auto;
+}
+section#discord-rules div#discord-rules-container li {
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
