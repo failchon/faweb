@@ -27,7 +27,7 @@ interface FaeEvent extends CalendarEvent {
   templateUrl: 'events.component.html'
 })
 export class EventsComponent  {
-  view: string = 'month';
+  view: string = 'week';
  //view: string = 'month';
  //view: string = 'day';
 
@@ -101,7 +101,6 @@ export class EventsComponent  {
 
 
   eventClicked(event: Fae): void {
-
     window.open("https://docs.google.com/spreadsheets/d/152ndLffYQCB5AesRzUGkeElrBR5m7QibPpVGHqK9Wj8/edit#gid=1274985437" + event.title);
 }
 
