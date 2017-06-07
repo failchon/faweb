@@ -1543,7 +1543,8 @@ section#discord-rules div#discord-rules-container {
         margin:0 auto;
     }
 
-    section#fa-setup div#setup-container div.setup-steps ul li, section#discord-rules div#discord-rules-container div.discord-rules ul li {
+    section#fa-setup div#setup-container div.setup-steps ul li, 
+    section#discord-rules div#discord-rules-container div.discord-rules ul li {
     padding: 5px;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;

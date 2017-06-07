@@ -24,8 +24,8 @@
     "id": 2,
     "name": "Elemental Pi",
     "igname": "Failchon",
-    "rank": "Co-Founder and Leader",
-    "description": "Failchon is the co-founder and the current leader of the guild. The usual problems and questions will go to him. He also manages the guild missions and other events",
+    "rank": "Leader & Co Founder",
+    "description": "Failchon is the co-founder and the current leader of the guild. The usual problems and questions will go to him. He also manages the guild missions and other events.",
     "picture": "failchon.png"
   }, {
     "id": 3,
@@ -66,7 +66,7 @@
     "picture": "bjorn.png"
   }, {
     "id": 9,
-    "name": "DragonXneon",
+    "name": "Fera Blackpaw",
     "igname": "DragonXneon ",
     "rank": "Marshall",
     "picture": "dragon.png"
@@ -74,13 +74,13 @@
     "id": 10,
     "name": "Morrowind Darkness",
     "igname": "MorrowindDarkness ",
-    "rank": "Marshall",
+    "rank": "Marshall & Co Founder",
     "picture": "morrow.png"
   }, {
     "id": 11,
     "name": "Kara Curly",
     "igname": "Mentor ",
-    "rank": "Marshall",
+    "rank": "Marshall & Co Founder",
     "picture": "mentor.png"
   }],
 
