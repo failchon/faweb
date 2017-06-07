@@ -623,7 +623,7 @@ section#fa-events div.events-container {
 }
 .cal-open-day-events {
   padding: 15px;
-  color: white;
+  color: #fff;
   background-color: #35586C;
   border-bottom: 1px solid #fff;
 }
@@ -632,7 +632,7 @@ section#fa-events div.events-container {
   top: 2px;
 }
 .cal-event-title {
-  color: white;
+  color: #fff;
 }
 .cal-event-title:hover {
   text-decoration: none;
@@ -651,7 +651,7 @@ section#fa-events div.events-container {
   text-decoration: none;
 }
 .cal-starts-within-week .cal-event-title {
-  color: white;
+  color: #fff;
 }
 .cal-week-view {
   display: none;
@@ -2143,10 +2143,6 @@ section#raids-encounter div.wing-content div.wing-raid h1 {
   text-align: center;
 }
 /* END RAIDS PAGE CSS */
-section#fa-contrib {
-  /*min-height: 850px;
-    background:url(https://365gw2.files.wordpress.com/2015/10/gw2-heart-of-thorns-guild-hall-lost-precipise-2.jpg);*/
-}
 @media (max-width: 505px) {
   section#fa-contrib {
     height: auto;
@@ -2176,12 +2172,6 @@ section#fa-contrib {
     min-height: 850px;
     background: url(https://365gw2.files.wordpress.com/2015/10/gw2-heart-of-thorns-guild-hall-lost-precipise-2.jpg);
   }
-}
-section#fa-contrib h1.lost-precipice-title {
-  /*text-align: center;
-    color: #fff;
-    font-size: 60px;
-    padding-top: 151px;*/
 }
 @media (max-width: 505px) {
   section#fa-contrib h1.lost-precipice-title {
@@ -2253,9 +2243,6 @@ section#fa-contrib div#contrib-features {
     margin: 0 auto;
   }
 }
-section#fa-contrib div#contrib-features div.features-help {
-  /*padding: 0px 170px 0px 170px;*/
-}
 @media only screen and (min-width: 769px) and (max-width: 1102px) {
   section#fa-contrib div#contrib-features div.features-help {
     padding: 0px 170px 0px 170px;
@@ -2273,12 +2260,6 @@ section#fa-contrib div#contrib-features div.features-help {
     justify-content: center;
     align-items: center;
   }
-}
-section#fa-contrib div#contrib-features div.features-help h1 {
-  /*display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;*/
 }
 @media (max-width: 505px) {
   section#fa-contrib div#contrib-features div.features-help h1 {
@@ -2322,10 +2303,6 @@ section#fa-contrib div#contrib-features div.features-help h1 {
     line-height: 20px;
     color: #fff;
   }
-}
-section#fa-contrib div#contrib-features div.features-help .feat-don-inner {
-  /*margin-top: 90px;
-                width:134px;*/
 }
 @media (max-width: 505px) {
   section#fa-contrib div#contrib-features div.features-help .feat-don-inner {
@@ -2374,11 +2351,6 @@ section#fa-contrib div#contrib-features div.features-help .feat-don-inner {
     padding: 39px 20px 20px 20px;
   }
 }
-section#fa-contrib div#contrib-features div.features-help div.about-donations {
-  /*display: inline-block;
-                border: 2px solid #fff;
-                padding: 20px 0px 20px 0px;*/
-}
 @media (max-width: 505px) {
   section#fa-contrib div#contrib-features div.features-help div.about-donations {
     border: 2px solid #fff;
@@ -2418,11 +2390,6 @@ section#fa-contrib div#contrib-features div.features-help div.about-donations a 
   text-align: center;
   text-decoration: none;
 }
-section#fa-contrib div#contrib-features div.features-help div.about-features {
-  /*border: 2px solid #fff;
-        padding: 20px 0px 20px 0px;
-        margin-top: 41px;*/
-}
 @media (max-width: 505px) {
   section#fa-contrib div#contrib-features div.features-help div.about-features {
     border: 2px solid #fff;
@@ -2458,14 +2425,6 @@ section#fa-contrib div#contrib-features div.features-help div.about-features {
     margin-left: 149px;
     padding: 20px 0px 20px 0px;
   }
-}
-section#fa-contrib div#contrib-features div.features-help div.about-features a {
-  /*padding:20px 30px 20px 30px;
-                    font-weight: bold;
-                    color: #fff;
-                    width: 125px;
-                    text-align: center;
-                    text-decoration:none;*/
 }
 @media (max-width: 505px) {
   section#fa-contrib div#contrib-features div.features-help div.about-features a {
@@ -2522,10 +2481,6 @@ section#fa-donations {
   color: #fff;
   text-align: center;
   min-height: 500px;
-}
-section#fa-donations div.donations-inner {
-  /*padding: 20px;
-        margin: 0 auto;*/
 }
 @media (max-width: 505px) {
   section#fa-donations div.donations-inner {
@@ -2593,10 +2548,6 @@ section#fa-features {
   text-align: center;
   min-height: 500px;
 }
-section#fa-features div.features-tavern {
-  /*padding: 20px;
-        margin: 0 auto;*/
-}
 @media (max-width: 505px) {
   section#fa-features div.features-tavern {
     padding: 20px;
@@ -2638,10 +2589,6 @@ section#fa-features div.features-tavern img {
   width: 64px;
   height: 64px;
 }
-section#fa-features div.features-tavern2 {
-  /*margin-top: 40px;
-        margin-bottom: 82px;*/
-}
 @media (max-width: 505px) {
   section#fa-features div.features-tavern2 {
     margin-top: 40px;
@@ -2671,11 +2618,6 @@ section#fa-features div.features-tavern2 {
     margin-top: 40px;
     margin-bottom: 82px;
   }
-}
-section#fa-features div.features-tavern2 div.features-tavern-left {
-  /*margin-top: 47px;
-            padding: 40px;
-            text-align: left;*/
 }
 @media (max-width: 505px) {
   section#fa-features div.features-tavern2 div.features-tavern-left {
@@ -2712,11 +2654,6 @@ section#fa-features div.features-tavern2 div.features-tavern-left {
     width: 40%;
     margin: 47px auto auto auto;
   }
-}
-section#fa-features div.features-tavern2 div.features-tavern-right {
-  /*display: inline-block;
-            border: 1px solid #fff;
-            padding:20px;*/
 }
 @media (max-width: 505px) {
   section#fa-features div.features-tavern2 div.features-tavern-right {
@@ -2773,11 +2710,6 @@ section#fa-features div.features-nodes div.features-nodes-inner {
 section#fa-features div.features-nodes h1 {
   font-size: 40px;
   padding: 50px 50px 30px 50px;
-}
-section#fa-features div.features-nodes div.features-nodes-left {
-  /*padding-bottom: 31px;
-            width: 40%;
-            margin: 15px auto auto auto;*/
 }
 @media only screen and (min-width: 1241px) {
   section#fa-features div.features-nodes div.features-nodes-left {
@@ -2870,11 +2802,6 @@ section#fa-features div.features-more div.features-more-right img {
     margin: 0 auto;
     width: 36.5%;
   }
-}
-section#fa-features div.features-more div.features-more-bottom p {
-  /*padding: 10px;
-                line-height: 20px;
-                color: #000;*/
 }
 @media (max-width: 505px) {
   section#fa-features div.features-more div.features-more-bottom p {
