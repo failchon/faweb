@@ -128,6 +128,313 @@
 			"link":"http://dulfy.net/2017/02/13/gw2-deimos-raid-boss-guide/"
 		}
 		]
+	},
+	"raidguild": {
+		"title": "Monday 05.06.2017 17:00 Server Time ( Took around 3 hours 20 min )",
+		"boss_wing1": [{
+			"boss": "Wing 1"
+		},
+		{
+			"boss": "Vale Guardian",
+			"link": "http://www.color-hex.com/color/468f46"
+		},
+		{
+			"boss": "Gorseval",
+			"link": "http://www.color-hex.com/color/468f45"
+		},
+		{
+			"boss": "Sabetha",
+			"link": "http://www.color-hex.com/color/468f44"
+		}],
+		"wing1": [{
+			"playerName": "Ripi",
+			"class": "Tank Chrono",
+			"class2": "Tank Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Adrift",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid"
+		},
+		{
+			"playerName": "Pi",
+			"class": "Condi Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid"
+		},
+		{
+			"playerName": "Bara",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Sox",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Harfang",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Gixo",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		}],
+		"boss_wing2": [{
+			"boss": "Wing 2"
+		},
+		{
+			"boss": "Slothasor"
+		},
+		{
+			"boss": "Trio"
+		},
+		{
+			"boss": "Matthias"
+		}],
+		"wing2": [{
+			"playerName": "Ripi",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Adrift",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid"
+		},
+		{
+			"playerName": "Pi",
+			"class": "Condi Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid"
+		},
+		{
+			"playerName": "Bara",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Sox",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Harfang",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Gixo",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		}],
+		"boss_wing3": [{
+			"boss": "Wing 3"
+		},
+		{
+			"boss": "Escort"
+		},
+		{
+			"boss": "Keep Construct"
+		},
+		{
+			"boss": "Xera"
+		}],
+		"wing3": [{
+			"playerName": "Ripi",
+			"class": "Dps Chrono",
+			"class2": "Tank Chrono",
+			"class3": "Tank Chrono"
+		},
+		{
+			"playerName": "Adrift",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid"
+		},
+		{
+			"playerName": "Pi",
+			"class": "Condi Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid"
+		},
+		{
+			"playerName": "Bara",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Sox",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Harfang",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Gixo",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		}],
+		"boss_wing4": [{
+			"boss": "Wing 4"
+		},
+		{
+			"boss": "Cairn"
+		},
+		{
+			"boss": "Mursaat"
+		},
+		{
+			"boss": "Samarog"
+		},
+		{
+			"boss": "Deimos"
+		}],
+		"wing4": [{
+			"playerName": "Ripi",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono",
+			"class4": "Tank Chrono"
+		},
+		{
+			"playerName": "Adrift",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono",
+			"class4": "Dps Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid",
+			"class4": "Heal Druid"
+		},
+		{
+			"playerName": "Pi",
+			"class": "Heal Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid",
+			"class4": "Heal Druid"
+		},
+		{
+			"playerName": "Bara",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS",
+			"class4": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS",
+			"class4": "Condi PS"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Dps"
+		},
+		{
+			"playerName": "Sox",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Dps"
+		},
+		{
+			"playerName": "Harfang",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Dps"
+		},
+		{
+			"playerName": "Gixo",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Dps"
+		}]
 	}
 
 }
