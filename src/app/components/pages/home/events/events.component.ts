@@ -17,10 +17,6 @@ interface Fae {
   release_date: string;
 }
 
-interface FaeEvent extends CalendarEvent {
-  fae: Fae;
-}
-
 @Component({
   selector: 'events',
 	changeDetection: ChangeDetectionStrategy.OnPush,
@@ -101,7 +97,7 @@ export class EventsComponent  {
 
 
   eventClicked(event: Fae): void {
-    window.open("https://docs.google.com/spreadsheets/d/152ndLffYQCB5AesRzUGkeElrBR5m7QibPpVGHqK9Wj8/edit#gid=1274985437" + event.title);
+    window.open(`https://docs.google.com/spreadsheets/d/152ndLffYQCB5AesRzUGkeElrBR5m7QibPpVGHqK9Wj8/edit#gid=127498543/${event.title}`, '_blank');
 }
 
 }

@@ -31,7 +31,8 @@ import { DiscordComponent,
          DiscordRulesComponent } from './components/pages/discord/index';
 import { RaidComponent, 
          IntroductionComponent,
-         EncounterComponent } from './components/pages/raids/index';
+         EncounterComponent,
+         RaidGuildComponent } from './components/pages/raids/index';
 
 import {AboutService, 
         HomeService, 
@@ -44,7 +45,8 @@ const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'contribution', component: ContributionComponent },
   { path: 'discord', component: DiscordComponent },
-  { path: 'raid', component: RaidComponent }
+  { path: 'raid', component: RaidComponent },
+  { path: 'Guild Raid', component: RaidGuildComponent }
 ];
 
 @NgModule({
@@ -79,7 +81,8 @@ const appRoutes: Routes = [
                   FeaturesComponent,
                   JoinComponent,
                   SetupComponent,
-                  DiscordRulesComponent ],
+                  DiscordRulesComponent,
+                  RaidGuildComponent ],
 
   providers : [   AboutService, 
                   HomeService,

@@ -1,0 +1,89 @@
+<section id="raidguild">
+    <div class="raidguild-wrapper">
+        <div class="raidguild-title">
+            <h1> Guild Raid </h1>
+        </div>
+        <div class="raidguild-table">
+            <h1 class="raid-day"> {{raidguild?.title}} </h1>
+            <div class="raidguild-table-main">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th *ngFor="let item of boss_wing1">
+                                    <h1> 
+                                        <a href="{{item.link}}">{{item.boss}} </a>
+                                    </h1>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of wing1">
+                                <td>{{item.playerName}}</td>
+                                <td>{{item.class}}</td>
+                                <td>{{item.class2}}</td>
+                                <td>{{item.class3}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th *ngFor="let item of boss_wing2">
+                                    <h1> 
+                                        <a href="{{item.link}}">{{item.boss}} </a>
+                                    </h1>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of wing2">
+                                <td>{{item.playerName}}</td>
+                                <td>{{item.class}}</td>
+                                <td>{{item.class2}}</td>
+                                <td>{{item.class3}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th *ngFor="let item of boss_wing3">
+                                    <h1> 
+                                        <a href="{{item.link}}">{{item.boss}} </a>
+                                    </h1>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of wing3">
+                                <td>{{item.playerName}}</td>
+                                <td>{{item.class}}</td>
+                                <td>{{item.class2}}</td>
+                                <td>{{item.class3}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th *ngFor="let item of boss_wing4">
+                                    <h1> 
+                                        <a href="{{item.link}}">{{item.boss}} </a>
+                                    </h1>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of wing4">
+                                <td>{{item.playerName}}</td>
+                                <td>{{item.class}}</td>
+                                <td>{{item.class2}}</td>
+                                <td>{{item.class3}}</td>
+                                <td>{{item.class4}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>
+</section>
