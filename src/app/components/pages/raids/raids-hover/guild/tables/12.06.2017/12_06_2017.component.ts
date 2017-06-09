@@ -9,6 +9,7 @@ import { RD_O5_06_2017Component } from '../05.06.2017/05_06_2017.component';
 export class RD_12_06_2017Component  {
     name:string;
     showHide2:boolean;
+    raidguild : any; 
     wing1 : string;
     boss_wing1: string;
     wing2 : string;
