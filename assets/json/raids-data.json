@@ -136,7 +136,7 @@
 		},
 		{
 			"boss": "Vale Guardian",
-			"link": "../raidclear/05.06.2017/"
+			"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 		},
 		{
 			"boss": "Gorseval",
@@ -144,16 +144,16 @@
 		},
 		{
 			"boss": "Sabetha",
-			"link": "../../../../../../assets/raidclear/05.06.2017/20170605-193620_sab.html"
+			"link": "https://failchon.github.io/raidclears/05.06.2017%20Raid%20Clear/20170605-193620_sab.html"
 		}],
 		"wing1": [{
-			"playerName": "Ripi",
+			"playerName": "Adrift",
 			"class": "Tank Chrono",
 			"class2": "Tank Chrono",
 			"class3": "Dps Chrono"
 		},
 		{
-			"playerName": "Adrift",
+			"playerName": "Bara",
 			"class": "Dps Chrono",
 			"class2": "Dps Chrono",
 			"class3": "Dps Chrono"
@@ -171,7 +171,7 @@
 			"class3": "Condi Druid"
 		},
 		{
-			"playerName": "Bara",
+			"playerName": "Klon",
 			"class": "Condi PS",
 			"class2": "Condi PS",
 			"class3": "Condi PS"
@@ -195,7 +195,7 @@
 			"class3": "Dps"
 		},
 		{
-			"playerName": "Harfang",
+			"playerName": "Ripi",
 			"class": "Dps",
 			"class2": "Dps",
 			"class3": "Dps"
@@ -211,24 +211,24 @@
 		},
 		{
 			"boss": "Slothasor",
-			"link": "../../../../../../assets/raidclear/05.06.2017/20170605-193620_sab.html"
+			"link": "https://failchon.github.io/raidclears/05.06.2017%20Raid%20Clear/20170605-194524_sloth.html"
 		},
 		{
 			"boss": "Trio",
-			"link": "../../../../../../assets/raidclear/05.06.2017/20170605-193620_sab.html"
+			"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 		},
 		{
 			"boss": "Matthias",
-			"link": "../../../../../../assets/raidclear/05.06.2017/20170605-193620_sab.html"
+			"link": "https://failchon.github.io/raidclears/05.06.2017%20Raid%20Clear/20170605-201508_matt.html"
 		}],
 		"wing2": [{
-			"playerName": "Ripi",
+			"playerName": "Adrift",
 			"class": "Dps Chrono",
 			"class2": "Dps Chrono",
 			"class3": "Dps Chrono"
 		},
 		{
-			"playerName": "Adrift",
+			"playerName": "Bara",
 			"class": "Dps Chrono",
 			"class2": "Dps Chrono",
 			"class3": "Dps Chrono"
@@ -246,7 +246,7 @@
 			"class3": "Condi Druid"
 		},
 		{
-			"playerName": "Bara",
+			"playerName": "Klon",
 			"class": "Condi PS",
 			"class2": "Condi PS",
 			"class3": "Condi PS"
@@ -270,7 +270,7 @@
 			"class3": "Dps"
 		},
 		{
-			"playerName": "Harfang",
+			"playerName": "Ripi",
 			"class": "Dps",
 			"class2": "Dps",
 			"class3": "Dps"
@@ -286,24 +286,24 @@
 		},
 		{
 			"boss": "Escort",
-			"link": "../../../../../../assets/raidclear/05.06.2017/20170605-193620_sab.html"
+			"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 		},
 		{
 			"boss": "Keep Construct",
-			"link": "../../../../../../assets/raidclear/05.06.2017/20170605-193620_sab.html"
+			"link": "https://failchon.github.io/raidclears/05.06.2017%20Raid%20Clear/20170605-214640_kc.html"
 		},
 		{
 			"boss": "Xera",
-			"link": "../../../../../../assets/raidclear/05.06.2017/20170605-193620_sab.html"
+			"link": "https://failchon.github.io/raidclears/05.06.2017%20Raid%20Clear/20170605-220336_xera.html"
 		}],
 		"wing3": [{
-			"playerName": "Ripi",
+			"playerName": "Adrift",
 			"class": "Dps Chrono",
 			"class2": "Tank Chrono",
 			"class3": "Tank Chrono"
 		},
 		{
-			"playerName": "Adrift",
+			"playerName": "Bara",
 			"class": "Dps Chrono",
 			"class2": "Dps Chrono",
 			"class3": "Dps Chrono"
@@ -321,7 +321,7 @@
 			"class3": "Condi Druid"
 		},
 		{
-			"playerName": "Bara",
+			"playerName": "Klon",
 			"class": "Condi PS",
 			"class2": "Condi PS",
 			"class3": "Condi PS"
@@ -345,7 +345,7 @@
 			"class3": "Dps"
 		},
 		{
-			"playerName": "Harfang",
+			"playerName": "Ripi",
 			"class": "Dps",
 			"class2": "Dps",
 			"class3": "Dps"
@@ -361,29 +361,29 @@
 		},
 		{
 			"boss": "Cairn",
-			"link": "../../../../../../assets/raidclear/05.06.2017/20170605-193620_sab.html"
+			"link": "https://failchon.github.io/raidclears/05.06.2017%20Raid%20Clear/20170605-202159_cairn.html"
 		},
 		{
 			"boss": "Mursaat",
-			"link": "../../../../../../assets/raidclear/05.06.2017/20170605-193620_sab.html"
+			"link": "https://failchon.github.io/raidclears/05.06.2017%20Raid%20Clear/20170605-202722_mo.html"
 		},
 		{
 			"boss": "Samarog",
-			"link": "../../../../../../assets/raidclear/05.06.2017/20170605-193620_sab.html"
+			"link": "https://failchon.github.io/raidclears/05.06.2017%20Raid%20Clear/20170605-204003_sam.html"
 		},
 		{
 			"boss": "Deimos",
-			"link": "../../../../../../assets/raidclear/05.06.2017/20170605-193620_sab.html"
+			"link": "https://failchon.github.io/raidclears/05.06.2017%20Raid%20Clear/20170605-221631_dei.html"
 		}],
 		"wing4": [{
-			"playerName": "Ripi",
+			"playerName": "Adrift",
 			"class": "Dps Chrono",
 			"class2": "Dps Chrono",
 			"class3": "Dps Chrono",
 			"class4": "Tank Chrono"
 		},
 		{
-			"playerName": "Adrift",
+			"playerName": "Bara",
 			"class": "Dps Chrono",
 			"class2": "Dps Chrono",
 			"class3": "Dps Chrono",
@@ -404,7 +404,7 @@
 			"class4": "Heal Druid"
 		},
 		{
-			"playerName": "Bara",
+			"playerName": "Klon",
 			"class": "Condi PS",
 			"class2": "Condi PS",
 			"class3": "Condi PS",
@@ -429,10 +429,10 @@
 			"class": "Dps",
 			"class2": "Dps",
 			"class3": "Dps",
-			"class4": "Dps"
+			"class4": "Kiter"
 		},
 		{
-			"playerName": "Harfang",
+			"playerName": "Ripi",
 			"class": "Dps",
 			"class2": "Dps",
 			"class3": "Dps",
