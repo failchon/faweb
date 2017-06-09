@@ -3119,8 +3119,17 @@ section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main tabl
   color: #EE7600;
   font-weight: bold;
 }
+section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table tr:nth-child(8) td:nth-child(2),
+section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table tr:nth-child(8) td:nth-child(3),
+section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table tr:nth-child(8) td:nth-child(4) {
+  color: #FFA54F;
+  font-weight: bold;
+}
+section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table tr:nth-child(8) td:nth-child(5) {
+  color: teal;
+  font-weight: bold;
+}
 section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table tr:nth-child(7) td:nth-child(n+2),
-section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table tr:nth-child(8) td:nth-child(n+2),
 section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table tr:nth-child(9) td:nth-child(n+2),
 section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table tr:nth-child(10) td:nth-child(n+2) {
   color: #FFA54F;
