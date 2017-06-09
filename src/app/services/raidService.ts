@@ -15,4 +15,8 @@ export class RaidsService {
 		
 	}
 
+	getRaidGuildData () : Observable<any> {
+		return this.http.get('assets/json/raidguild-data.json');
+		
+	}
 }

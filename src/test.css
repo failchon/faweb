@@ -3069,34 +3069,54 @@ section#discord-rules div#discord-rules-container ul li a {
 /* RAIDGUILD CSS */
 section#raidguild {
   background-color: #1F2739;
+  min-height: 613px;
 }
 section#raidguild .raidguild-wrapper {
   align-items: center;
   display: flex;
   flex-direction: column;
 }
-section#raidguild .raidguild-wrapper .raidguild-table {
-  width: 80%;
-}
-section#raidguild .raidguild-wrapper .raidguild-table h1.raid-day {
+section#raidguild .raidguild-wrapper h1.fa-raid-title {
   text-align: center;
   color: #fff;
   font-size: 25px;
   margin-top: 45px;
   margin-bottom: 45px;
 }
+section#raidguild .raidguild-wrapper rd-05-06-2017,
+section#raidguild .raidguild-wrapper rd-12-06-2017 {
+  width: 100%;
+}
+section#raidguild .raidguild-wrapper .raidguild-table {
+  width: 80%;
+  margin: 0 auto;
+}
+section#raidguild .raidguild-wrapper .raidguild-table h1.raid-day {
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 12px;
+  cursor: pointer;
+}
 section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main {
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table {
-  width: 75%;
+  width: 50%;
   padding: 0 0 8em 0;
   text-align: left;
   overflow: hidden;
   border-collapse: separate;
   border-color: grey;
+  font-size: 14px;
+  table-layout: fixed;
+}
+section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table:nth-child(4) {
+  width: 65%;
+  padding: 0 0 3em 0;
 }
 section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table tr:nth-child(odd) {
   background-color: #323C50;

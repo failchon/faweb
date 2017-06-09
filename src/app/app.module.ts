@@ -8,6 +8,9 @@ import { CalendarModule } from 'angular-calendar';
 import { CommonModule } from '@angular/common';
 import { DemoUtilsModule } from '../demo-utils/module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { ModalModule } from 'angular2-modal';
+import { BootstrapModalModule } from 'angular2-modal/plugins/bootstrap';
 
 import { AppComponent }  from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -32,7 +35,9 @@ import { DiscordComponent,
 import { RaidComponent, 
          IntroductionComponent,
          EncounterComponent,
-         RaidGuildComponent } from './components/pages/raids/index';
+         RaidGuildComponent,
+         RD_O5_06_2017Component,
+         RD_12_06_2017Component } from './components/pages/raids/index';
 
 import {AboutService, 
         HomeService, 
@@ -57,7 +62,10 @@ const appRoutes: Routes = [
                   CommonModule,
                   CalendarModule.forRoot(),
                   DemoUtilsModule,
-                  NgbModule ],
+                  NgbModule,
+                  NgxPaginationModule,
+                  ModalModule.forRoot(),
+                  BootstrapModalModule ],
 
   declarations: [ AppComponent, 
       				    NavbarComponent,
@@ -82,7 +90,9 @@ const appRoutes: Routes = [
                   JoinComponent,
                   SetupComponent,
                   DiscordRulesComponent,
-                  RaidGuildComponent ],
+                  RaidGuildComponent,
+                  RD_O5_06_2017Component,
+                  RD_12_06_2017Component ],
 
   providers : [   AboutService, 
                   HomeService,
