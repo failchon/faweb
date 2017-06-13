@@ -27,8 +27,8 @@ export class AboutComponent  {
  }
 
  var IMAGES: Image[] = [
-	{ "title": "We are covered", "url": "../../../../assets/images/about/guild.png" },
-	{ "title": "Generation Gap", "url": "../../../../assets/images/about/guild.png" },
-	{ "title": "Potter Me", "url": "../../../../assets/images/about/guild.png" },
-	{ "title": "Pre-School Kids", "url": "../../../../assets/images/about/guild.png" }
+	{ "title": "We are covered", "url": "assets/images/about/guild.png" },
+	{ "title": "Generation Gap", "url": "assets/images/about/guild.png" },
+	{ "title": "Potter Me", "url": "assets/images/about/guild.png" },
+	{ "title": "Pre-School Kids", "url": "assets/images/about/guild.png" }
 ];
