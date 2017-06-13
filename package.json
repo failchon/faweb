@@ -28,6 +28,7 @@
     "angular-calendar": "^0.15.4",
     "angular2-modal": "^2.0.3",
     "core-js": "^2.4.1",
+    "ng2-page-slider": "^0.10.1",
     "ngx-pagination": "^3.0.0",
     "rxjs": "^5.1.0",
     "typescript": "^2.3.2",

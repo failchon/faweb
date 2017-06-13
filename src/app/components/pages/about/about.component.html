@@ -1,6 +1,16 @@
-<section id="fa-about">
-        <img style="width:100%;" src="assets/images/about/guild.png">
-</section>
+<div class="carousel">
+
+  <ul class="slides">
+
+    <li *ngFor="let image of images">
+      <h2>{{image.title}}</h2>
+      <img src="{{image.url}}" alt="">
+    </li>
+
+   
+  </ul>
+
+</div>
  <us></us>
  <meetus></meetus>
  <rules></rules>

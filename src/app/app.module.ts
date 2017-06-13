@@ -11,6 +11,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ModalModule } from 'angular2-modal';
 import { BootstrapModalModule } from 'angular2-modal/plugins/bootstrap';
+import { PageSliderModule }    from 'ng2-page-slider';
 
 import { AppComponent }  from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -65,7 +66,8 @@ const appRoutes: Routes = [
                   NgbModule,
                   NgxPaginationModule,
                   ModalModule.forRoot(),
-                  BootstrapModalModule ],
+                  BootstrapModalModule,
+                  PageSliderModule ],
 
   declarations: [ AppComponent, 
       				    NavbarComponent,
