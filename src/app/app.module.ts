@@ -38,7 +38,8 @@ import { RaidComponent,
          EncounterComponent,
          RaidGuildComponent,
          RD_O5_06_2017Component,
-         RD_12_06_2017Component } from './components/pages/raids/index';
+         RD_12_06_2017Component,
+         VgComponent } from './components/pages/raids/index';
 
 import {AboutService, 
         HomeService, 
@@ -52,7 +53,7 @@ const appRoutes: Routes = [
   { path: 'contribution', component: ContributionComponent },
   { path: 'discord', component: DiscordComponent },
   { path: 'raid', component: RaidComponent },
-  { path: 'Guild Raid', component: RaidGuildComponent }
+  { path: 'vg', component: VgComponent }
 ];
 
 @NgModule({
@@ -94,7 +95,8 @@ const appRoutes: Routes = [
                   DiscordRulesComponent,
                   RaidGuildComponent,
                   RD_O5_06_2017Component,
-                  RD_12_06_2017Component ],
+                  RD_12_06_2017Component,
+                  VgComponent ],
 
   providers : [   AboutService, 
                   HomeService,

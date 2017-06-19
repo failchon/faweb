@@ -19,4 +19,9 @@ export class RaidsService {
 		return this.http.get('assets/json/raidguild-data.json');
 		
 	}
+
+	getRaidGuideData () : Observable<any> {
+		return this.http.get('assets/json/raidguides-data.json');
+		
+	}
 }

@@ -59,10 +59,10 @@
 		}]
 	},
 	"encounter": {
-		"wing1": [{
+		"wing1":[{
 			"name":"Vale Guardian",
 			"picture":"vg.png",
-			"link":"http://dulfy.net/2015/11/20/gw2-vale-guardian-raid-boss-guide/"
+			"link":"vg"
 		},
 		{
 			"name":"Gorseval",
