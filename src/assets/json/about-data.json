@@ -78,6 +78,12 @@
     "picture": "morrow.png"
   }, {
     "id": 11,
+    "name": "Siv",
+    "igname": "Jarum",
+    "rank": "Marshall",
+    "picture": "jarum.png"
+  }, {
+    "id": 12,
     "name": "Kara Curly",
     "igname": "Mentor ",
     "rank": "Marshall & Co Founder",
