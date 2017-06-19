@@ -96,7 +96,7 @@ const appRoutes: Routes = [
                   RaidGuildComponent,
                   RD_O5_06_2017Component,
                   RD_12_06_2017Component,
-                  VgComponent ],
+                   ],
 
   providers : [   AboutService, 
                   HomeService,

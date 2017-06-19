@@ -1,0 +1,14 @@
+{
+    "vg": {
+        "id": 1,
+        "guide": [{
+            "picture":"./assets/images/raids/guides/vg/1.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/vg/2.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/vg/3.png"
+        }]
+    }
+}
