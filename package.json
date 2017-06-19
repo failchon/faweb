@@ -28,11 +28,23 @@
     "angular-calendar": "^0.15.4",
     "angular2-modal": "^2.0.3",
     "core-js": "^2.4.1",
+    "express": "^4.15.3",
     "ng2-page-slider": "^0.10.1",
     "ngx-pagination": "^3.0.0",
     "rxjs": "^5.1.0",
     "typescript": "2.3.2",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.8.4",
+    "@angular/cli": "1.0.2",
+    "@angular/compiler-cli": "^4.0.0"
+  },
+  "scripts": {
+  // ...
+  "postinstall": "ng build --aot -prod",
+  "start": "node server.js"
+  },
+  "engines": {
+  "node": "6.9.2",
+  "npm": "3.10.9"
   },
   "devDependencies": {
     "@angular/cli": "1.0.2",
