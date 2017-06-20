@@ -15,12 +15,6 @@
         "id": 2,
         "guide": [{
             "picture":"./assets/images/raids/guides/gorseval/1.png"
-        },
-        {
-            "picture":"./assets/images/raids/guides/gorseval/2.png"
-        },
-        {
-            "picture":"./assets/images/raids/guides/gorseval/3.png"
         }]
     },
     "sabetha": {
@@ -57,6 +51,15 @@
         },
         {
             "picture":"./assets/images/raids/guides/matthias/3.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/matthias/4.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/matthias/5.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/matthias/6.png"
         }]
     },
     "kc": {
