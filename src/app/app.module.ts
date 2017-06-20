@@ -39,7 +39,18 @@ import { RaidComponent,
          RaidGuildComponent,
          RD_O5_06_2017Component,
          RD_12_06_2017Component,
-         VgComponent } from './components/pages/raids/index';
+         RD_19_06_2017Component,
+         VgComponent,
+         GorsevalComponent,
+         SabethaComponent,
+         SlothasorComponent,
+         MatthiasComponent,
+         KcComponent,
+         XeraComponent,
+         CairnComponent,
+         MoComponent,
+         SamarogComponent,
+         DeimosComponent } from './components/pages/raids/index';
 
 import {AboutService, 
         HomeService, 
@@ -53,7 +64,18 @@ const appRoutes: Routes = [
   { path: 'contribution', component: ContributionComponent },
   { path: 'discord', component: DiscordComponent },
   { path: 'raid', component: RaidComponent },
-  { path: 'vg', component: VgComponent }
+  { path: 'Guild Raid', component: RaidGuildComponent },
+  { path: 'vg', component: VgComponent },
+  { path: 'gorseval', component: GorsevalComponent },
+  { path: 'sabetha', component: SabethaComponent },
+  { path: 'slothasor', component: SlothasorComponent },
+  { path: 'matthias', component: MatthiasComponent },
+  { path: 'kc', component: KcComponent },
+  { path: 'xera', component: XeraComponent },
+  { path: 'cairn', component: CairnComponent },
+  { path: 'mo', component: MoComponent },
+  { path: 'samarog', component: SamarogComponent },
+  { path: 'deimos', component: DeimosComponent }
 ];
 
 @NgModule({
@@ -96,7 +118,18 @@ const appRoutes: Routes = [
                   RaidGuildComponent,
                   RD_O5_06_2017Component,
                   RD_12_06_2017Component,
-                  VgComponent
+                  RD_19_06_2017Component,
+                  VgComponent,
+                  GorsevalComponent,
+                  SabethaComponent,
+                  SlothasorComponent,
+                  MatthiasComponent,
+                  KcComponent,
+                  XeraComponent,
+                  CairnComponent,
+                  MoComponent,
+                  SamarogComponent,
+                  DeimosComponent
                    ],
 
   providers : [   AboutService, 

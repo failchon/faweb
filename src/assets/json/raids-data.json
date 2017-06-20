@@ -110,12 +110,12 @@
 		"wing4": [{
 			"name":"Cairn the Indomitable",
 			"picture":"cairn.png",
-			"link":""
+			"link":"cairn"
 		},
 		{
 			"name":"Mursaat Overseer",
 			"picture":"mursaat.png",
-			"link":"http://dulfy.net/2017/02/17/gw2-mursaat-overseer-raid-boss-guide/"
+			"link":"mo"
 		},
 		{
 			"name":"Samarog",

@@ -10,5 +10,125 @@
         {
             "picture":"./assets/images/raids/guides/vg/3.png"
         }]
+    },
+    "gorseval": {
+        "id": 2,
+        "guide": [{
+            "picture":"./assets/images/raids/guides/gorseval/1.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/gorseval/2.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/gorseval/3.png"
+        }]
+    },
+    "sabetha": {
+        "id": 3,
+        "guide": [{
+            "picture":"./assets/images/raids/guides/sabetha/1.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/sabetha/2.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/sabetha/3.png"
+        }]
+    },
+    "slothasor": {
+        "id": 4,
+        "guide": [{
+            "picture":"./assets/images/raids/guides/slothasor/1.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/slothasor/2.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/slothasor/3.png"
+        }]
+    },
+    "matthias": {
+        "id": 5,
+        "guide": [{
+            "picture":"./assets/images/raids/guides/matthias/1.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/matthias/2.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/matthias/3.png"
+        }]
+    },
+    "kc": {
+        "id": 6,
+        "guide": [{
+            "picture":"./assets/images/raids/guides/kc/1.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/kc/2.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/kc/3.png"
+        }]
+    },
+    "xera": {
+        "id": 7,
+        "guide": [{
+            "picture":"./assets/images/raids/guides/xera/1.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/xera/2.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/xera/3.png"
+        }]
+    },
+    "cairn": {
+        "id": 8,
+        "guide": [{
+            "picture":"./assets/images/raids/guides/cairn/1.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/cairn/2.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/cairn/3.png"
+        }]
+    },
+    "mo": {
+        "id": 8,
+        "guide": [{
+            "picture":"./assets/images/raids/guides/mo/1.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/mo/2.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/mo/3.png"
+        }]
+    },
+    "samarog": {
+        "id": 8,
+        "guide": [{
+            "picture":"./assets/images/raids/guides/samarog/1.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/samarog/2.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/samarog/3.png"
+        }]
+    },
+    "deimos": {
+        "id": 8,
+        "guide": [{
+            "picture":"./assets/images/raids/guides/deimos/1.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/deimos/2.png"
+        },
+        {
+            "picture":"./assets/images/raids/guides/deimos/3.png"
+        }]
     }
 }
