@@ -3229,12 +3229,6 @@ section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main tabl
   width: 65%;
   padding: 0 0 3em 0;
 }
-@media (max-width: 505px) {
-  section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table:nth-child(4) {
-    width: 110%;
-    padding: 0 0 3em 0;
-  }
-}
 section#raidguild .raidguild-wrapper .raidguild-table .raidguild-table-main table tr:nth-child(odd) {
   background-color: #323C50;
 }
