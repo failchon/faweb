@@ -694,7 +694,7 @@
 			"class3": "Dps"
 		},
 		{
-			"playerName": "AlexAlexSox",
+			"playerName": "AlexSox",
 			"class": "Dps",
 			"class2": "Dps",
 			"class3": "Dps"
@@ -769,7 +769,7 @@
 			"class3": "Dps"
 		},
 		{
-			"playerName": "AlexAlexSox",
+			"playerName": "AlexSox",
 			"class": "Dps",
 			"class2": "Dps",
 			"class3": "Dps"
@@ -844,7 +844,7 @@
 			"class3": "Dps"
 		},
 		{
-			"playerName": "AlexAlexSox",
+			"playerName": "AlexSox",
 			"class": "Dps",
 			"class2": "Dps",
 			"class3": "Dps"
@@ -930,7 +930,7 @@
 			"class4": "Dps"
 		},
 		{
-			"playerName": "AlexAlexSox",
+			"playerName": "AlexSox",
 			"class": "Dps",
 			"class2": "Dps",
 			"class3": "Dps",
@@ -938,6 +938,323 @@
 		},
 		{
 			"playerName": "Harfang",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Dps"
+		},
+		{
+			"playerName": "Lotso",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Dps"
+		}]
+	},
+	"raidguild_26_june_2017": {
+		"title": "Monday 26.06.2017 17:00 Server Time ( Took around 3 hours and 20 min, not enough time to kill Xera )",
+		"boss_wing1": [{
+			"boss": "Wing 1"
+		},
+		{
+			"boss": "Vale Guardian",
+			"link": "https://failchon.github.io/raidclears/26.06.2017%20Raid%20Clear/20170626-191728_vg.html"
+		},
+		{
+			"boss": "Gorseval",
+			"link": "https://failchon.github.io/raidclears/26.06.2017%20Raid%20Clear/20170626-193100_gorse.html"
+		},
+		{
+			"boss": "Sabetha",
+			"link": "https://failchon.github.io/raidclears/26.06.2017%20Raid%20Clear/20170626-200354_sab.html"
+		}],
+		"wing1": [{
+			"playerName": "Arapovian",
+			"class": "Tank Chrono",
+			"class2": "Tank Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Harfang",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid"
+		},
+		{
+			"playerName": "Failchon",
+			"class": "Condi Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid"
+		},
+		{
+			"playerName": "Klon",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "AlexSox",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Rip",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Lotso",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		}],
+		"boss_wing2": [{
+			"boss": "Wing 2"
+		},
+		{
+			"boss": "Slothasor",
+			"link": "https://failchon.github.io/raidclears/26.06.2017%20Raid%20Clear/20170626-201532_sloth.html"
+		},
+		{
+			"boss": "Trio",
+			"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+		},
+		{
+			"boss": "Matthias",
+			"link": "https://failchon.github.io/raidclears/26.06.2017%20Raid%20Clear/20170626-204244_matt.html"
+		}],
+		"wing2": [{
+			"playerName": "Harfang",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Arapovian",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid"
+		},
+		{
+			"playerName": "Failchon",
+			"class": "Condi Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid"
+		},
+		{
+			"playerName": "Klon",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "AlexSox",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Rip",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Lotso",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		}],
+		"boss_wing3": [{
+			"boss": "Wing 3"
+		},
+		{
+			"boss": "Escort",
+			"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+		},
+		{
+			"boss": "Keep Construct",
+			"link": "https://failchon.github.io/raidclears/26.06.2017%20Raid%20Clear/20170626-220707_kc.html"
+		},
+		{
+			"boss": "Xera",
+			"link": "https://failchon.github.io/raidclears/26.06.2017%20Raid%20Clear/20170626-222253_xera.html"
+		}],
+		"wing3": [{
+			"playerName": "Harfang",
+			"class": "Dps Chrono",
+			"class2": "Tank Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Arapovian",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Tank Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid"
+		},
+		{
+			"playerName": "Failchon",
+			"class": "Condi Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid"
+		},
+		{
+			"playerName": "Klon",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "AlexSox",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Rip",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Lotso",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		}],
+		"boss_wing4": [{
+			"boss": "Wing 4"
+		},
+		{
+			"boss": "Cairn",
+			"link": "https://failchon.github.io/raidclears/26.06.2017%20Raid%20Clear/20170626-205002_cairn.html"
+		},
+		{
+			"boss": "Mursaat",
+			"link": "https://failchon.github.io/raidclears/26.06.2017%20Raid%20Clear/20170626-205532_mo.html"
+		},
+		{
+			"boss": "Samarog",
+			"link": "https://failchon.github.io/raidclears/26.06.2017%20Raid%20Clear/20170626-210601_sam.html"
+		},
+		{
+			"boss": "Deimos",
+			"link": "https://failchon.github.io/raidclears/26.06.2017%20Raid%20Clear/20170626-212837_dei.html"
+		}],
+		"wing4": [{
+			"playerName": "Harfang",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono",
+			"class4": "Dps Chrono"
+		},
+		{
+			"playerName": "Arapovian",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono",
+			"class4": "Tank Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid",
+			"class4": "Heal Druid"
+		},
+		{
+			"playerName": "Failchon",
+			"class": "Heal Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid",
+			"class4": "Heal Druid"
+		},
+		{
+			"playerName": "Klon",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS",
+			"class4": "Condi PS"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS",
+			"class4": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Dps"
+		},
+		{
+			"playerName": "AlexSox",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Kiter"
+		},
+		{
+			"playerName": "Rip",
 			"class": "Dps",
 			"class2": "Dps",
 			"class3": "Dps",
