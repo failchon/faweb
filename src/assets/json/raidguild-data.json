@@ -1267,5 +1267,322 @@
 			"class3": "Dps",
 			"class4": "Dps"
 		}]
+	},
+	"raidguild_26_june_2017": {
+		"title": "Monday 03.07.2017 17:00 Server Time ( Took around 2 hours and 50 min )",
+		"boss_wing1": [{
+			"boss": "Wing 1"
+		},
+		{
+			"boss": "Vale Guardian",
+			"link": "https://failchon.github.io/raidclears/03.07.2017%20Raid%20Clear/20170703-191211_vg.html"
+		},
+		{
+			"boss": "Gorseval",
+			"link": "https://failchon.github.io/raidclears/03.07.2017%20Raid%20Clear/20170703-192417_gorse.html"
+		},
+		{
+			"boss": "Sabetha",
+			"link": "https://failchon.github.io/raidclears/03.07.2017%20Raid%20Clear/20170703-193414_sab.html"
+		}],
+		"wing1": [{
+			"playerName": "Rip",
+			"class": "Tank Chrono",
+			"class2": "Tank Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Adrift",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid"
+		},
+		{
+			"playerName": "AlexSox",
+			"class": "Condi Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid"
+		},
+		{
+			"playerName": "Arapovian",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Gixo",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Failchon",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Lotso",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		}],
+		"boss_wing2": [{
+			"boss": "Wing 2"
+		},
+		{
+			"boss": "Slothasor",
+			"link": "https://failchon.github.io/raidclears/03.07.2017%20Raid%20Clear/20170703-194221_sloth.html"
+		},
+		{
+			"boss": "Trio",
+			"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+		},
+		{
+			"boss": "Matthias",
+			"link": "https://failchon.github.io/raidclears/03.07.2017%20Raid%20Clear/20170703-203703_matt.html"
+		}],
+		"wing2": [{
+			"playerName": "Rip",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Adrift",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid"
+		},
+		{
+			"playerName": "Failchon",
+			"class": "Condi Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid"
+		},
+		{
+			"playerName": "Arapovian",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Gixo",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "AlexSox",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Auramancer"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Lotso",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		}],
+		"boss_wing3": [{
+			"boss": "Wing 3"
+		},
+		{
+			"boss": "Escort",
+			"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+		},
+		{
+			"boss": "Keep Construct",
+			"link": "https://failchon.github.io/raidclears/03.07.2017%20Raid%20Clear/20170703-213911_kc.html"
+		},
+		{
+			"boss": "Xera",
+			"link": "https://failchon.github.io/raidclears/03.07.2017%20Raid%20Clear/20170703-215559_xera.html"
+		}],
+		"wing3": [{
+			"playerName": "Rip",
+			"class": "Dps Chrono",
+			"class2": "Tank Chrono",
+			"class3": "Dps Chrono"
+		},
+		{
+			"playerName": "Adrift",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Tank Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid"
+		},
+		{
+			"playerName": "AlexSox",
+			"class": "Condi Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid"
+		},
+		{
+			"playerName": "Arapovian",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Gixo",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Failchon",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		},
+		{
+			"playerName": "Lotso",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps"
+		}],
+		"boss_wing4": [{
+			"boss": "Wing 4"
+		},
+		{
+			"boss": "Cairn",
+			"link": "https://failchon.github.io/raidclears/03.07.2017%20Raid%20Clear/20170703-204445_cairn.html"
+		},
+		{
+			"boss": "Mursaat",
+			"link": "https://failchon.github.io/raidclears/03.07.2017%20Raid%20Clear/20170703-205149_mo.html"
+		},
+		{
+			"boss": "Samarog",
+			"link": "https://failchon.github.io/raidclears/03.07.2017%20Raid%20Clear/20170703-210222_sam.html"
+		},
+		{
+			"boss": "Deimos",
+			"link": "https://failchon.github.io/raidclears/03.07.2017%20Raid%20Clear/20170703-211344_dei.html"
+		}],
+		"wing4": [{
+			"playerName": "Rip",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono",
+			"class4": "Dps Chrono"
+		},
+		{
+			"playerName": "Adrift",
+			"class": "Dps Chrono",
+			"class2": "Dps Chrono",
+			"class3": "Dps Chrono",
+			"class4": "Tank Chrono"
+		},
+		{
+			"playerName": "Hellsing",
+			"class": "Heal Druid",
+			"class2": "Heal Druid",
+			"class3": "Heal Druid",
+			"class4": "Heal Druid"
+		},
+		{
+			"playerName": "AlexSox",
+			"class": "Heal Druid",
+			"class2": "Condi Druid",
+			"class3": "Condi Druid",
+			"class4": "Heal Druid"
+		},
+		{
+			"playerName": "Arapovian",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS",
+			"class4": "Condi PS"
+		},
+		{
+			"playerName": "Gixo",
+			"class": "Condi PS",
+			"class2": "Condi PS",
+			"class3": "Condi PS",
+			"class4": "Condi PS"
+		},
+		{
+			"playerName": "Lucyy",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Dps"
+		},
+		{
+			"playerName": "Failchon",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Kiter"
+		},
+		{
+			"playerName": "Allard",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Dps"
+		},
+		{
+			"playerName": "Lotso",
+			"class": "Dps",
+			"class2": "Dps",
+			"class3": "Dps",
+			"class4": "Dps"
+		}]
 	}
 }

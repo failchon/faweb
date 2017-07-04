@@ -1,0 +1,83 @@
+
+<div class="raidguild-table">
+    <h1 (click)="changeShowStatus()" class="raid-day"> {{raidguild?.title}} </h1>
+    <div *ngIf="showHide" class="raidguild-table-main">
+            <table>
+                <thead>
+                    <tr>
+                        <th *ngFor="let item of boss_wing1">
+                            <h1> 
+                                <a href="{{item.link}}">{{item.boss}} </a>
+                            </h1>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of wing1">
+                        <td>{{item.playerName}}</td>
+                        <td style="width:26%;">{{item.class}}</td>
+                        <td style="width:25%;">{{item.class2}}</td>
+                        <td style="width:25%;">{{item.class3}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th *ngFor="let item of boss_wing2">
+                            <h1> 
+                                <a href="{{item.link}}">{{item.boss}} </a>
+                            </h1>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of wing2">
+                        <td>{{item.playerName}}</td>
+                        <td style="width:26%;">{{item.class}}</td>
+                        <td style="width:25%;">{{item.class2}}</td>
+                        <td style="width:25%;">{{item.class3}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th *ngFor="let item of boss_wing3">
+                            <h1> 
+                                <a href="{{item.link}}">{{item.boss}} </a>
+                            </h1>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of wing3">
+                        <td>{{item.playerName}}</td>
+                        <td style="width:26%;">{{item.class}}</td>
+                        <td style="width:25%;">{{item.class2}}</td>
+                        <td style="width:25%;">{{item.class3}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th *ngFor="let item of boss_wing4">
+                            <h1> 
+                                <a href="{{item.link}}">{{item.boss}} </a>
+                            </h1>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of wing4">
+                        <td>{{item.playerName}}</td>
+                        <td style="width:26%;">{{item.class}}</td>
+                        <td style="width:25%;">{{item.class2}}</td>
+                        <td style="width:25%;">{{item.class3}}</td>
+                        <td style="width:25%;">{{item.class4}}</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+</div>
