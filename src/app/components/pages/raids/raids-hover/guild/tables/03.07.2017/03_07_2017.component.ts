@@ -5,7 +5,7 @@ import { RaidsService } from '../../../../../../../services/index';
   selector: 'rd-03-07-2017',
   templateUrl: '03_07_2017.component.html'
 })
-export class RD_O3_07_2017Component  {
+export class RD_03_07_2017Component  {
     name:string;
     showHide:boolean;
     raidguild : any; 
