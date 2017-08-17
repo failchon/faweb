@@ -14,12 +14,12 @@ export class FooterComponent  {
 
   constructor( private route: ActivatedRoute ) {}
 
-onAnchorClick ( ) {
+/*onAnchorClick ( ) {
     this.route.fragment.subscribe ( f => {
       const element = document.querySelector ( "#" + f )
       if ( element ) element.scrollIntoView ( element )
     });
-  }
+  }*/
 
 }
 
